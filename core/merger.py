@@ -17,7 +17,8 @@ class MergeEngine:
             'years_experience': None,
             'skills': [],
             'experience': [],
-            'education': []
+            'education': [],
+            'aliases': []
         }
         
         scalar_fields = ['full_name', 'headline', 'years_experience']
@@ -30,14 +31,26 @@ class MergeEngine:
             best_conf = -1.0
             best_source = None
             
+            aliases_collected = set()
             for res in results:
                 if field in res.raw_fields and res.raw_fields[field]:
                     val = res.raw_fields[field]
+                    if isinstance(val, str):
+                        val = val.strip()
+                    if not val:
+                        continue
                     conf = calculate_field_confidence(val, res.trust_weight)
                     if conf > best_conf:
+                        if best_val is not None and field == 'full_name' and best_val.lower() != val.lower():
+                            aliases_collected.add(best_val)
                         best_conf = conf
                         best_val = val
                         best_source = res.source_name
+                    elif field == 'full_name' and best_val is not None and val.lower() != best_val.lower():
+                        aliases_collected.add(val)
+            
+            if field == 'full_name' and aliases_collected:
+                merged_data['aliases'] = list(aliases_collected)
             
             if best_val is not None:
                 merged_data[field] = best_val
@@ -112,6 +125,10 @@ class MergeEngine:
                             # Store the item with whitespace stripped for strings
                             clean_item = item.strip() if isinstance(item, str) else item
                             unique_items.append(clean_item)
+                            
+            # Sort unique items if any have a recency override
+            if unique_items and isinstance(unique_items[0], dict):
+                unique_items.sort(key=lambda x: not x.get('_is_current_override', False))
                             
             merged_data[field] = unique_items
             

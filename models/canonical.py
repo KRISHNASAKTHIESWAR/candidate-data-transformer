@@ -14,12 +14,13 @@ class CanonicalProfile(BaseModel):
     full_name: str
     emails: List[str]
     phones: List[str]
-    location: Dict[str, str]
-    links: Dict[str, str]
-    headline: Optional[str]
-    years_experience: Optional[float]
-    skills: List[Dict[str, Any]]
-    experience: List[Dict[str, Any]]
-    education: List[Dict[str, Any]]
-    provenance: List[ProvenanceEntry]
+    location: Dict[str, str] = Field(default_factory=dict)
+    links: Dict[str, str] = Field(default_factory=dict)
+    headline: Optional[str] = None
+    years_experience: Optional[float] = None
+    skills: List[Dict[str, Any]] = Field(default_factory=list)
+    experience: List[Dict[str, Any]] = Field(default_factory=list)
+    education: List[Dict[str, Any]] = Field(default_factory=list)
+    aliases: List[str] = Field(default_factory=list)
+    provenance: List[ProvenanceEntry] = Field(default_factory=list)
     overall_confidence: float

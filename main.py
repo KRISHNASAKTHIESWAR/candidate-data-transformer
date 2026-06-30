@@ -107,22 +107,26 @@ def normalize_notes_record(raw: dict) -> dict:
         if links: out['links'] = links
         
         # Regex for years of experience
-        exp_match = re.search(r'(\d+)\s*(?:yrs|years)\s*exp', raw_text, re.IGNORECASE)
+        exp_match = re.search(r'(\d+(?:[.-]\d+)?\+?)\s*(?:yrs|years)\s*exp', raw_text, re.IGNORECASE)
         if exp_match:
-            try:
-                out['years_experience'] = float(exp_match.group(1))
-            except ValueError:
-                pass
+            raw_exp = exp_match.group(1)
+            # robustly extract the first number from something like "6+", "6-7", "6.5"
+            num_match = re.search(r'(\d+(?:\.\d+)?)', raw_exp)
+            if num_match:
+                try:
+                    out['years_experience'] = float(num_match.group(1))
+                except ValueError:
+                    pass
                 
         # Regex for education/degree
         degree_match = re.search(r'(CS degree|PhD|master\'s|bachelor\'s)', raw_text, re.IGNORECASE)
         if degree_match:
             out['education'] = [{'degree': degree_match.group(1)}]
             
-        # Regex for company (Currently at X, works at X, etc)
-        company_match = re.search(r'(?:Currently at|at|moved to) ([A-Z][a-zA-Z0-9]+)', raw_text)
+        # Regex for company (Currently at X, works at X, now at X, moved to X)
+        company_match = re.search(r'(?:Currently at|at|now at|moved to) ([A-Z][a-zA-Z0-9]+)', raw_text)
         if company_match:
-            out['experience'] = [{'company': company_match.group(1)}]
+            out['experience'] = [{'company': company_match.group(1), '_is_current_override': True}]
 
     for src_key, canon_key in NOTES_FIELD_MAP.items():
         val = raw.get(src_key)
