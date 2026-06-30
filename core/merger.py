@@ -20,7 +20,8 @@ class MergeEngine:
             'education': []
         }
         
-        scalar_fields = ['full_name', 'headline', 'years_experience', 'location', 'links']
+        scalar_fields = ['full_name', 'headline', 'years_experience']
+        dict_fields = ['location', 'links']
         list_fields = ['emails', 'phones', 'skills', 'experience', 'education']
         
         # Process scalar fields
@@ -48,6 +49,33 @@ class MergeEngine:
                         confidence=best_conf
                     )
                 )
+
+        # Process dict fields
+        for field in dict_fields:
+            merged_dict = {}
+            best_confs = {}
+            best_sources = {}
+            for res in results:
+                if field in res.raw_fields and isinstance(res.raw_fields[field], dict):
+                    for k, v in res.raw_fields[field].items():
+                        if v is None or v == "":
+                            continue
+                        conf = calculate_field_confidence(v, res.trust_weight)
+                        if conf > best_confs.get(k, -1.0):
+                            best_confs[k] = conf
+                            merged_dict[k] = v
+                            best_sources[k] = res.source_name
+                            
+            merged_data[field] = merged_dict
+            for k, conf in best_confs.items():
+                provenance.append(
+                    ProvenanceEntry(
+                        field=field,
+                        source=best_sources[k],
+                        method='merge_keys',
+                        confidence=conf
+                    )
+                )
         
         # Process list fields
         for field in list_fields:
@@ -55,7 +83,18 @@ class MergeEngine:
             seen = set()
             
             for res in results:
-                if field in res.raw_fields and isinstance(res.raw_fields[field], list):
+                if field in res.raw_fields and isinstance(res.raw_fields[field], list) and res.raw_fields[field]:
+                    # Add provenance once per source
+                    conf = calculate_field_confidence(res.raw_fields[field], res.trust_weight)
+                    provenance.append(
+                        ProvenanceEntry(
+                            field=field, 
+                            source=res.source_name, 
+                            method='union', 
+                            confidence=conf
+                        )
+                    )
+                    
                     for item in res.raw_fields[field]:
                         # Build a normalized dedup key
                         if isinstance(item, dict):
@@ -74,15 +113,6 @@ class MergeEngine:
                             clean_item = item.strip() if isinstance(item, str) else item
                             unique_items.append(clean_item)
                             
-                            conf = calculate_field_confidence(item, res.trust_weight)
-                            provenance.append(
-                                ProvenanceEntry(
-                                    field=field, 
-                                    source=res.source_name, 
-                                    method='union', 
-                                    confidence=conf
-                                )
-                            )
             merged_data[field] = unique_items
             
         # Generate candidate_id

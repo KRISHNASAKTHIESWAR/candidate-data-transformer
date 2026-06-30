@@ -1,0 +1,30 @@
+=== AT-2001 ===
+Priya Sharma - GitHub: github.com/priyasharma-ml, portfolio at priyasharma.dev. Based in Bengaluru, India. 6 yrs experience. Currently ML Engineer at Google (Mar 2023 - present), building recommendation systems. Before that, Data Scientist at Flipkart (Jun 2020 - Feb 2023), worked on search ranking. Started career as Analyst at Deloitte (Jul 2018 - May 2020). Education: M.Tech in Computer Science from IIT Bombay, graduated 2018. B.Tech in Electronics from VIT Vellore, graduated 2016. Headline: 'ML Engineer specializing in recommendation systems and NLP'.
+
+=== AT-2002 ===
+Arjun Mehta, github.com/arjunm, currently relocating from Bengaluru, India to San Francisco for the Meta role starting next quarter. 5 yrs backend exp. Backend Engineer at Meta (Jan 2024 - present). Previously SDE-2 at Razorpay (Aug 2021 - Dec 2023), built payment infra. SDE-1 at Razorpay (Jul 2019 - Jul 2021). B.E. Computer Science, BITS Pilani, 2019. Headline: 'Backend engineer, distributed systems and Kubernetes'.
+
+=== AT-2003 ===
+Fatima Khan, portfolio: fatimakhan.com/work. No phone on file, prefers email or LinkedIn. Based in Dubai, UAE. Senior PM at Careem (Feb 2022 - present), owns rider growth. Product Manager at Talabat (Mar 2019 - Jan 2022). Associate PM at Souq.com / Amazon (Jun 2017 - Feb 2019). MBA from INSEAD, 2017. BSc Business Informatics, American University of Sharjah, 2014. Headline: 'Product leader scaling marketplaces across MENA'.
+
+=== AT-2004 ===
+Wei Zhang - no LinkedIn, very active on GitHub: github.com/weizhang-dev (900+ stars across projects). Based in Shenzhen. 7 yrs experience. Backend SWE at Tencent (Sep 2021 - present), payments infra team. Software Engineer at Huawei (Jul 2017 - Aug 2021), worked on cloud storage. BSc Computer Science, Tsinghua University, 2017. Headline: 'Backend engineer, high-throughput systems at scale'.
+
+=== AT-2005 ===
+Liam O'Connor, github.com/liamoc. Title on CSV says Senior but he's actually 2 yrs into his career - 'Senior' was a recruiter typo, ATS title is correct. Software Engineer II at Stripe (Jun 2024 - present). Software Engineer Intern at Stripe (May 2023 - Aug 2023), converted to full-time. BA Computer Science, Trinity College Dublin, 2024. Headline: 'Early-career backend engineer, payments'.
+
+=== AT-2006 ===
+Sophia Müller is currently between roles, last position was Quant Analyst at Deutsche Bank (Apr 2021 - Mar 2026), left to pursue further studies. Before that, Junior Quant at Commerzbank (Jul 2019 - Mar 2021). MSc Financial Engineering, Frankfurt School of Finance, 2019. BSc Mathematics, LMU Munich, 2017. Based in Berlin. GitHub: github.com/sophiam-quant. Headline: 'Quantitative researcher, fixed income and risk modeling'.
+
+=== AT-2007 ===
+Min-jun Park, portfolio: minjunpark.kr, github.com/minjunpark. Based in Seongnam, South Korea. 9 yrs experience. Server/Infra Engineer at Naver (Mar 2020 - present), platform infrastructure team. Backend Engineer at Kakao (Jan 2016 - Feb 2020). Junior Developer at LG CNS (Mar 2014 - Dec 2015). PhD coursework (incomplete) in Computer Science, KAIST, 2014-2016, did not finish. MS Computer Science, Korea University, 2014. BS Computer Engineering, Korea University, 2012. Headline: 'Backend/infra hybrid engineer, messaging systems at scale'.
+
+=== AT-2008 ===
+Grace Owusu, github.com/graceowusu-dev. Recent graduate, no professional experience yet — first job search. BSc Computer Science, University of Ghana, graduated 2026 (May 2022 - May 2026). Strong in Python and SQL from coursework and personal projects, no formal job to attribute skills to yet. Based in Accra, Ghana. Headline: 'CS graduate seeking first full-time SWE role'.
+
+=== AT-2009 ===
+Viktor Petrov. Links: github.com/vpetrov-search, blog at vpetrov.dev/writing, twitter.com/vpetrov_eng. Based in Moscow. 8 yrs experience. Search Infrastructure Engineer at Yandex (Sep 2018 - present), query optimization and ranking. Junior Engineer at Yandex (Jul 2016 - Aug 2018), search ranking team. MS Applied Mathematics, Moscow State University, 2016. Headline: 'Search infra engineer, large-scale retrieval systems'.
+
+=== AT-2010 ===
+Maria Gonzalez, github.com/mariag-cloud, portfolio mariagonzalez.tech. Based in Madrid. 8 yrs experience. Cloud Architect at Telefonica (approx. early 2021 - present, exact month unclear, confirm with candidate), leads multi-cloud migration. DevOps Engineer at Indra (Mar 2018 - Dec 2020). Systems Administrator at BBVA (Jul 2016 - Feb 2018). MSc Cloud Computing, Universidad Politécnica de Madrid, 2016. BSc Telecommunications Engineering, Universidad Carlos III, 2014. AWS + Azure + Terraform certified. Headline: 'Cloud architect, multi-cloud and IaC at enterprise scale'.
+

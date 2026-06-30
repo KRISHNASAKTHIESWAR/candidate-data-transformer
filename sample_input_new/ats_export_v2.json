@@ -1,0 +1,126 @@
+[
+  {
+    "applicant_id": "AT-2001",
+    "applicant_name": "Priya Sharma",
+    "contact": "priya.sharma@gmail.com",
+    "role": "Machine Learning Engineer",
+    "skills_list": [
+      "python",
+      "tensorflow",
+      "nlp",
+      "pytorch"
+    ],
+    "linkedin_url": "https://linkedin.com/in/priyasharma-ml"
+  },
+  {
+    "applicant_id": "AT-2002",
+    "applicant_name": "Arjun Mehta",
+    "contact": "arjun.mehta@outlook.com",
+    "role": "Backend Engineer",
+    "skills_list": [
+      "golang",
+      "kubernetes",
+      "grpc"
+    ],
+    "linkedin_url": "https://linkedin.com/in/arjunmehta-eng"
+  },
+  {
+    "applicant_id": "AT-2003",
+    "applicant_name": "Fatima Khan",
+    "contact": "fatima.khan@careem.com",
+    "role": "Senior Product Manager",
+    "skills_list": [
+      "product strategy",
+      "agile",
+      "roadmapping",
+      "sql"
+    ],
+    "linkedin_url": "https://linkedin.com/in/fatimakhan-pm"
+  },
+  {
+    "applicant_id": "AT-2004",
+    "applicant_name": "Wei Zhang",
+    "contact": "wei.zhang88@163.com",
+    "role": "Backend Software Engineer",
+    "skills_list": [
+      "go",
+      "GoLang",
+      "redis",
+      "MySQL",
+      "grpc"
+    ],
+    "linkedin_url": ""
+  },
+  {
+    "applicant_id": "AT-2005",
+    "applicant_name": "Liam O'Connor",
+    "contact": "liam.oconnor@gmail.com",
+    "role": "Software Engineer II",
+    "skills_list": [
+      "python",
+      "flask",
+      "postgresql"
+    ],
+    "linkedin_url": "https://linkedin.com/in/liamoconnor"
+  },
+  {
+    "applicant_id": "AT-2006",
+    "applicant_name": "Sophia Mueller",
+    "contact": "sophia.mueller@gmail.com",
+    "role": "",
+    "skills_list": [
+      "python",
+      "r",
+      "quantlib",
+      "machine learning"
+    ],
+    "linkedin_url": "https://linkedin.com/in/sophiamueller-quant"
+  },
+  {
+    "applicant_id": "AT-2007",
+    "applicant_name": "Min-jun Park",
+    "contact": "minjun.park@naver.com",
+    "role": "Backend/Infra Engineer",
+    "skills_list": [
+      "kotlin",
+      "spring boot",
+      "kafka",
+      "java"
+    ],
+    "linkedin_url": "https://linkedin.com/in/minjunpark-dev"
+  },
+  {
+    "applicant_id": "AT-2008",
+    "applicant_name": "Grace Owusu",
+    "contact": "grace.owusu@gmail.com",
+    "role": "",
+    "skills_list": [],
+    "linkedin_url": "https://linkedin.com/in/graceowusu"
+  },
+  {
+    "applicant_id": "AT-2009",
+    "applicant_name": "Viktor Petrov",
+    "contact": "viktor.petrov@yandex.ru",
+    "role": "Search Infrastructure Engineer",
+    "skills_list": [
+      "c++",
+      "elasticsearch",
+      "lucene",
+      "distributed systems"
+    ],
+    "linkedin_url": "https://linkedin.com/in/viktorpetrov-search"
+  },
+  {
+    "applicant_id": "AT-2010",
+    "applicant_name": "Maria Gonzalez",
+    "contact": "maria.gonzalez@gmail.com",
+    "role": "Cloud Architect",
+    "skills_list": [
+      "aws",
+      "azure",
+      "terraform",
+      "kubernetes"
+    ],
+    "linkedin_url": "https://linkedin.com/in/mariagonzalez-cloud"
+  }
+]

@@ -1,18 +1,29 @@
 [
   {
+    "candidate_id": "d1b335152948a5cdd1afe931e71169f05835b55b754e9b9256287215a51ee8de",
     "name": "Priya Sharma",
     "primary_email": "priya.sharma@gmail.com",
+    "all_emails": [
+      "priya.sharma@gmail.com"
+    ],
+    "phone": "+91-98765-43210",
+    "github": "https://github.com/priyasharma-ml",
+    "linkedin": "https://linkedin.com/in/priyasharma-ml",
+    "headline": "Machine Learning Engineer",
+    "experience_years": 6.0,
     "skills": [
+      "Python",
+      "tensorflow",
+      "nlp",
+      "pytorch"
+    ],
+    "current_company": "Google",
+    "work_history": [
       {
-        "name": "python"
-      },
-      {
-        "name": "tensorflow"
-      },
-      {
-        "name": "nlp"
+        "company": "Google"
       }
     ],
+    "trust_score": 0.7692307692307693,
     "provenance": [
       {
         "field": "full_name",
@@ -27,8 +38,38 @@
         "confidence": 0.85
       },
       {
+        "field": "years_experience",
+        "source": "recruiter_notes",
+        "method": "highest_confidence",
+        "confidence": 0.5
+      },
+      {
+        "field": "links",
+        "source": "ats_json",
+        "method": "merge_keys",
+        "confidence": 0.85
+      },
+      {
+        "field": "links",
+        "source": "recruiter_notes",
+        "method": "merge_keys",
+        "confidence": 0.5
+      },
+      {
         "field": "emails",
         "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
         "method": "union",
         "confidence": 0.85
       },
@@ -51,25 +92,33 @@
         "confidence": 0.85
       },
       {
-        "field": "skills",
-        "source": "ats_json",
+        "field": "experience",
+        "source": "recruiter_notes",
+        "method": "union",
+        "confidence": 0.5
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
         "method": "union",
         "confidence": 0.85
       }
     ],
-    "overall_confidence": 0.85
+    "overall_confidence": 0.7692307692307693
   },
   {
+    "candidate_id": "3b1caae56abbc9442c905c86a0e6ce388bc06f1c3b18b159dc88aec0de1a15e8",
     "name": "Sharma, Priya",
     "primary_email": "p.sharma2@yahoo.com",
-    "skills": [
-      {
-        "name": "java"
-      },
-      {
-        "name": "azure"
-      }
+    "all_emails": [
+      "p.sharma2@yahoo.com"
     ],
+    "headline": "Software Development Engineer 2",
+    "skills": [
+      "java",
+      "Microsoft Azure"
+    ],
+    "trust_score": 0.85,
     "provenance": [
       {
         "field": "full_name",
@@ -90,18 +139,6 @@
         "confidence": 0.85
       },
       {
-        "field": "phones",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
         "field": "skills",
         "source": "ats_json",
         "method": "union",
@@ -111,19 +148,28 @@
     "overall_confidence": 0.85
   },
   {
+    "candidate_id": "5dee4db6deadf4e4fc82774ee76bd2f034f5814413a5cdb784b39c7ddc05b62f",
     "name": "Arjun Mehta",
     "primary_email": "arjun.mehta@outlook.com",
+    "all_emails": [
+      "arjun.mehta@outlook.com"
+    ],
+    "phone": "(415) 555-0182",
+    "github": "https://github.com/arjunm",
+    "linkedin": "https://linkedin.com/in/arjunmehta-eng",
+    "headline": "Backend Engineer",
     "skills": [
+      "Go",
+      "kubernetes",
+      "grpc"
+    ],
+    "current_company": "Meta",
+    "work_history": [
       {
-        "name": "golang"
-      },
-      {
-        "name": "kubernetes"
-      },
-      {
-        "name": "k8s"
+        "company": "Meta"
       }
     ],
+    "trust_score": 0.7916666666666666,
     "provenance": [
       {
         "field": "full_name",
@@ -138,8 +184,32 @@
         "confidence": 0.85
       },
       {
+        "field": "links",
+        "source": "ats_json",
+        "method": "merge_keys",
+        "confidence": 0.85
+      },
+      {
+        "field": "links",
+        "source": "recruiter_notes",
+        "method": "merge_keys",
+        "confidence": 0.5
+      },
+      {
         "field": "emails",
         "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
         "method": "union",
         "confidence": 0.85
       },
@@ -162,28 +232,42 @@
         "confidence": 0.85
       },
       {
-        "field": "skills",
-        "source": "ats_json",
+        "field": "experience",
+        "source": "recruiter_notes",
+        "method": "union",
+        "confidence": 0.5
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
         "method": "union",
         "confidence": 0.85
       }
     ],
-    "overall_confidence": 0.85
+    "overall_confidence": 0.7916666666666666
   },
   {
+    "candidate_id": "778198da26bb7bbdab7472514db69417891362cace25acb1f3ee4c5856a909e9",
     "name": "Fatima Khan",
     "primary_email": "fatima.khan@careem.com",
+    "all_emails": [
+      "fatima.khan@careem.com"
+    ],
+    "linkedin": "https://linkedin.com/in/fatimakhan-pm",
+    "headline": "Senior Product Manager",
     "skills": [
+      "product strategy",
+      "agile",
+      "roadmapping",
+      "sql"
+    ],
+    "current_company": "Careem",
+    "work_history": [
       {
-        "name": "product strategy"
-      },
-      {
-        "name": "agile"
-      },
-      {
-        "name": "roadmapping"
+        "company": "Careem"
       }
     ],
+    "trust_score": 0.8150000000000001,
     "provenance": [
       {
         "field": "full_name",
@@ -198,14 +282,26 @@
         "confidence": 0.85
       },
       {
+        "field": "links",
+        "source": "ats_json",
+        "method": "merge_keys",
+        "confidence": 0.85
+      },
+      {
         "field": "emails",
         "source": "ats_json",
         "method": "union",
         "confidence": 0.85
       },
       {
-        "field": "skills",
+        "field": "emails",
         "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
         "method": "union",
         "confidence": 0.85
       },
@@ -218,26 +314,38 @@
       {
         "field": "skills",
         "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_notes",
+        "method": "union",
+        "confidence": 0.5
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
         "method": "union",
         "confidence": 0.85
       }
     ],
-    "overall_confidence": 0.85
+    "overall_confidence": 0.8150000000000001
   },
   {
+    "candidate_id": "485e151e483d7894dcd0310a1bdcd84384cdce7fb7320fee2daf8356b9b3fb71",
     "name": "David Kim",
     "primary_email": "david.kim@protonmail.com",
-    "skills": [
-      {
-        "name": "distributed systems"
-      },
-      {
-        "name": "java"
-      },
-      {
-        "name": "aws"
-      }
+    "all_emails": [
+      "david.kim@protonmail.com"
     ],
+    "headline": "Senior SDE",
+    "skills": [
+      "distributed systems",
+      "java",
+      "Amazon Web Services"
+    ],
+    "trust_score": 0.85,
     "provenance": [
       {
         "field": "full_name",
@@ -258,24 +366,6 @@
         "confidence": 0.85
       },
       {
-        "field": "phones",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
         "field": "skills",
         "source": "ats_json",
         "method": "union",
@@ -285,19 +375,19 @@
     "overall_confidence": 0.85
   },
   {
+    "candidate_id": "7307a03e6c7f0d419c5a1948ef8b440ac226c48de6ddf30a51e3eee11b778645",
     "name": "Lena Fischer",
     "primary_email": "lena.fischer@gmx.de",
-    "skills": [
-      {
-        "name": "javascript"
-      },
-      {
-        "name": "react.js"
-      },
-      {
-        "name": "css3"
-      }
+    "all_emails": [
+      "lena.fischer@gmx.de"
     ],
+    "headline": "Frontend Developer",
+    "skills": [
+      "JavaScript",
+      "React",
+      "CSS"
+    ],
+    "trust_score": 0.85,
     "provenance": [
       {
         "field": "full_name",
@@ -318,24 +408,6 @@
         "confidence": 0.85
       },
       {
-        "field": "phones",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
         "field": "skills",
         "source": "ats_json",
         "method": "union",
@@ -345,19 +417,19 @@
     "overall_confidence": 0.85
   },
   {
+    "candidate_id": "94048e78bf8749074404c3d9027ea9c718af12c6942b4cbee52722dded805cc0",
     "name": "Carlos Ruiz",
     "primary_email": "carlos.ruiz@hotmail.com",
-    "skills": [
-      {
-        "name": "spark"
-      },
-      {
-        "name": "airflow"
-      },
-      {
-        "name": "python"
-      }
+    "all_emails": [
+      "carlos.ruiz@hotmail.com"
     ],
+    "headline": "Data Engineer",
+    "skills": [
+      "spark",
+      "airflow",
+      "Python"
+    ],
+    "trust_score": 0.85,
     "provenance": [
       {
         "field": "full_name",
@@ -378,24 +450,6 @@
         "confidence": 0.85
       },
       {
-        "field": "phones",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
         "field": "skills",
         "source": "ats_json",
         "method": "union",
@@ -405,22 +459,29 @@
     "overall_confidence": 0.85
   },
   {
+    "candidate_id": "bbef734149919aa5c70f777efc782a4ac5058c098449a06340563fae23f30a25",
     "name": "Wei Zhang",
     "primary_email": "wei.zhang88@163.com",
+    "all_emails": [
+      "wei.zhang88@163.com"
+    ],
+    "phone": "+86-138-0013-8000",
+    "github": "https://github.com/weizhang-dev",
+    "headline": "Backend Engineer",
+    "experience_years": 7.0,
     "skills": [
+      "Go",
+      "redis",
+      "mysql",
+      "grpc"
+    ],
+    "current_company": "Tencent",
+    "work_history": [
       {
-        "name": "go"
-      },
-      {
-        "name": "redis"
-      },
-      {
-        "name": "mysql"
-      },
-      {
-        "name": "grpc"
+        "company": "Tencent"
       }
     ],
+    "trust_score": 0.775,
     "provenance": [
       {
         "field": "full_name",
@@ -435,13 +496,37 @@
         "confidence": 0.85
       },
       {
+        "field": "years_experience",
+        "source": "recruiter_notes",
+        "method": "highest_confidence",
+        "confidence": 0.5
+      },
+      {
+        "field": "links",
+        "source": "recruiter_notes",
+        "method": "merge_keys",
+        "confidence": 0.5
+      },
+      {
         "field": "emails",
         "source": "ats_json",
         "method": "union",
         "confidence": 0.85
       },
       {
-        "field": "phones",
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
         "source": "recruiter_csv",
         "method": "union",
         "confidence": 0.85
@@ -471,25 +556,33 @@
         "confidence": 0.85
       },
       {
-        "field": "skills",
-        "source": "ats_json",
+        "field": "experience",
+        "source": "recruiter_notes",
+        "method": "union",
+        "confidence": 0.5
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
         "method": "union",
         "confidence": 0.85
       }
     ],
-    "overall_confidence": 0.85
+    "overall_confidence": 0.775
   },
   {
+    "candidate_id": "3aea3a54426e06508ba7a80cf074bf1efd64356c5fbaab1410d8510b1b84c654",
     "name": "Aisha Bello",
     "primary_email": "aisha.bello@gmail.com",
-    "skills": [
-      {
-        "name": "node.js"
-      },
-      {
-        "name": "postgresql"
-      }
+    "all_emails": [
+      "aisha.bello@gmail.com"
     ],
+    "headline": "Backend Engineer",
+    "skills": [
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "trust_score": 0.85,
     "provenance": [
       {
         "field": "full_name",
@@ -510,18 +603,6 @@
         "confidence": 0.85
       },
       {
-        "field": "phones",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
         "field": "skills",
         "source": "ats_json",
         "method": "union",
@@ -531,19 +612,19 @@
     "overall_confidence": 0.85
   },
   {
+    "candidate_id": "57aeb7605ab75fe5f3b3023a944a91ce5ab3ffb534829306ff3afd59f047988e",
     "name": "Tom Becker",
     "primary_email": "tom.becker@gmail.com",
-    "skills": [
-      {
-        "name": "ruby"
-      },
-      {
-        "name": "rails"
-      },
-      {
-        "name": "postgres"
-      }
+    "all_emails": [
+      "tom.becker@gmail.com"
     ],
+    "headline": "Senior Engineer",
+    "skills": [
+      "ruby",
+      "rails",
+      "PostgreSQL"
+    ],
+    "trust_score": 0.85,
     "provenance": [
       {
         "field": "full_name",
@@ -564,24 +645,6 @@
         "confidence": 0.85
       },
       {
-        "field": "phones",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
         "field": "skills",
         "source": "ats_json",
         "method": "union",
@@ -591,19 +654,19 @@
     "overall_confidence": 0.85
   },
   {
+    "candidate_id": "a47ac555ed1149c22c28c24182ab8b9b3b63530de77ff93d5b9bdc8dc8e5586b",
     "name": "Jose Nunez",
     "primary_email": "jose.nunez@empresa.mx",
-    "skills": [
-      {
-        "name": "selenium"
-      },
-      {
-        "name": "pytest"
-      },
-      {
-        "name": "ci/cd"
-      }
+    "all_emails": [
+      "jose.nunez@empresa.mx"
     ],
+    "headline": "QA Automation Engineer",
+    "skills": [
+      "selenium",
+      "pytest",
+      "ci/cd"
+    ],
+    "trust_score": 0.85,
     "provenance": [
       {
         "field": "full_name",
@@ -624,24 +687,6 @@
         "confidence": 0.85
       },
       {
-        "field": "phones",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
         "field": "skills",
         "source": "ats_json",
         "method": "union",
@@ -651,16 +696,18 @@
     "overall_confidence": 0.85
   },
   {
+    "candidate_id": "f76a30e24c2fd107c14b580719bfd3e88bb2b7bdf1187a8446f81df6fea82485",
     "name": "Hana Suzuki",
     "primary_email": "hana.suzuki@docomo.ne.jp",
-    "skills": [
-      {
-        "name": "swift"
-      },
-      {
-        "name": "swiftui"
-      }
+    "all_emails": [
+      "hana.suzuki@docomo.ne.jp"
     ],
+    "headline": "iOS Engineer",
+    "skills": [
+      "swift",
+      "swiftui"
+    ],
+    "trust_score": 0.85,
     "provenance": [
       {
         "field": "full_name",
@@ -681,18 +728,6 @@
         "confidence": 0.85
       },
       {
-        "field": "phones",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
         "field": "skills",
         "source": "ats_json",
         "method": "union",
@@ -702,19 +737,19 @@
     "overall_confidence": 0.85
   },
   {
+    "candidate_id": "f25f6d4ebb15feed17fd24ff422fc522e539a0cbd0afe1757b942449b06bafc1",
     "name": "Mohammed Al-Farsi",
     "primary_email": "m.alfarsi@gmail.com",
-    "skills": [
-      {
-        "name": "terraform"
-      },
-      {
-        "name": "ansible"
-      },
-      {
-        "name": "aws"
-      }
+    "all_emails": [
+      "m.alfarsi@gmail.com"
     ],
+    "headline": "DevOps Engineer",
+    "skills": [
+      "terraform",
+      "ansible",
+      "Amazon Web Services"
+    ],
+    "trust_score": 0.85,
     "provenance": [
       {
         "field": "full_name",
@@ -735,24 +770,6 @@
         "confidence": 0.85
       },
       {
-        "field": "phones",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
         "field": "skills",
         "source": "ats_json",
         "method": "union",
@@ -762,8 +779,16 @@
     "overall_confidence": 0.85
   },
   {
+    "candidate_id": "04eee25899db93f7fa882f21ac11fc4663cd173c27e2dfb2fdb6eaa1b5f7a89a",
     "name": "Grace Owusu",
     "primary_email": "grace.owusu@gmail.com",
+    "all_emails": [
+      "grace.owusu@gmail.com"
+    ],
+    "phone": "+233-24-555-0166",
+    "github": "https://github.com/graceowusu-dev",
+    "linkedin": "https://linkedin.com/in/graceowusu",
+    "trust_score": 0.7999999999999999,
     "provenance": [
       {
         "field": "full_name",
@@ -772,8 +797,32 @@
         "confidence": 0.85
       },
       {
+        "field": "links",
+        "source": "ats_json",
+        "method": "merge_keys",
+        "confidence": 0.85
+      },
+      {
+        "field": "links",
+        "source": "recruiter_notes",
+        "method": "merge_keys",
+        "confidence": 0.5
+      },
+      {
         "field": "emails",
         "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
         "method": "union",
         "confidence": 0.85
       },
@@ -784,22 +833,33 @@
         "confidence": 0.85
       }
     ],
-    "overall_confidence": 0.85
+    "overall_confidence": 0.7999999999999999
   },
   {
+    "candidate_id": "f13dffe43f5b14eb303553c6d17403b523d7831125ca483b48e7286a487d2c71",
     "name": "Viktor Petrov",
     "primary_email": "viktor.petrov@yandex.ru",
+    "all_emails": [
+      "viktor.petrov@yandex.ru"
+    ],
+    "phone": "+7-916-123-45-67",
+    "github": "https://github.com/vpetrov-search",
+    "linkedin": "https://linkedin.com/in/viktorpetrov-search",
+    "headline": "Search Infrastructure Engineer",
+    "experience_years": 8.0,
     "skills": [
+      "C++",
+      "elasticsearch",
+      "lucene",
+      "distributed systems"
+    ],
+    "current_company": "Yandex",
+    "work_history": [
       {
-        "name": "c++"
-      },
-      {
-        "name": "elasticsearch"
-      },
-      {
-        "name": "lucene"
+        "company": "Yandex"
       }
     ],
+    "trust_score": 0.7692307692307693,
     "provenance": [
       {
         "field": "full_name",
@@ -814,8 +874,38 @@
         "confidence": 0.85
       },
       {
+        "field": "years_experience",
+        "source": "recruiter_notes",
+        "method": "highest_confidence",
+        "confidence": 0.5
+      },
+      {
+        "field": "links",
+        "source": "ats_json",
+        "method": "merge_keys",
+        "confidence": 0.85
+      },
+      {
+        "field": "links",
+        "source": "recruiter_notes",
+        "method": "merge_keys",
+        "confidence": 0.5
+      },
+      {
         "field": "emails",
         "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
         "method": "union",
         "confidence": 0.85
       },
@@ -838,28 +928,34 @@
         "confidence": 0.85
       },
       {
-        "field": "skills",
-        "source": "ats_json",
+        "field": "experience",
+        "source": "recruiter_notes",
+        "method": "union",
+        "confidence": 0.5
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
         "method": "union",
         "confidence": 0.85
       }
     ],
-    "overall_confidence": 0.85
+    "overall_confidence": 0.7692307692307693
   },
   {
+    "candidate_id": "2fb76cb3e55609f0fe0e1afceecdc100bac1df1fb47fc90e1944dea4c53c4e5f",
     "name": "Sophia Mueller",
     "primary_email": "sophia.m.private@gmail.com",
-    "skills": [
-      {
-        "name": "python"
-      },
-      {
-        "name": "r"
-      },
-      {
-        "name": "quantlib"
-      }
+    "all_emails": [
+      "sophia.m.private@gmail.com"
     ],
+    "headline": "Quantitative Analyst",
+    "skills": [
+      "Python",
+      "r",
+      "quantlib"
+    ],
+    "trust_score": 0.85,
     "provenance": [
       {
         "field": "full_name",
@@ -880,43 +976,37 @@
         "confidence": 0.85
       },
       {
-        "field": "phones",
-        "source": "recruiter_notes",
-        "method": "union",
-        "confidence": 0.0
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
         "field": "skills",
         "source": "ats_json",
         "method": "union",
         "confidence": 0.85
       }
     ],
-    "overall_confidence": 0.7285714285714285
+    "overall_confidence": 0.85
   },
   {
+    "candidate_id": "ed22b0b01e67edaee65421a2a41f2ac35c114c9e49dd618f5ed0d8d43d48d697",
     "name": "Liam O'Connor",
     "primary_email": "liam.oconnor@gmail.com",
+    "all_emails": [
+      "liam.oconnor@gmail.com"
+    ],
+    "phone": "+353-87-123-4567",
+    "github": "https://github.com/liamoc",
+    "linkedin": "https://linkedin.com/in/liamoconnor",
+    "headline": "Software Engineering Intern",
     "skills": [
+      "Python",
+      "flask",
+      "PostgreSQL"
+    ],
+    "current_company": "Stripe",
+    "work_history": [
       {
-        "name": "python"
-      },
-      {
-        "name": "flask"
+        "company": "Stripe"
       }
     ],
+    "trust_score": 0.7916666666666666,
     "provenance": [
       {
         "field": "full_name",
@@ -931,8 +1021,32 @@
         "confidence": 0.85
       },
       {
+        "field": "links",
+        "source": "ats_json",
+        "method": "merge_keys",
+        "confidence": 0.85
+      },
+      {
+        "field": "links",
+        "source": "recruiter_notes",
+        "method": "merge_keys",
+        "confidence": 0.5
+      },
+      {
         "field": "emails",
         "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
         "method": "union",
         "confidence": 0.85
       },
@@ -953,21 +1067,35 @@
         "source": "ats_json",
         "method": "union",
         "confidence": 0.85
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_notes",
+        "method": "union",
+        "confidence": 0.5
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
       }
     ],
-    "overall_confidence": 0.85
+    "overall_confidence": 0.7916666666666666
   },
   {
+    "candidate_id": "8bb012ccce5fd056d05b2809e40d43816678dfefeb9dbc2f9e8ec1c5b3c6c336",
     "name": "D'Angelo Reyes",
     "primary_email": "dangelo.reyes@gmail.com",
-    "skills": [
-      {
-        "name": "pentesting"
-      },
-      {
-        "name": "owasp"
-      }
+    "all_emails": [
+      "dangelo.reyes@gmail.com"
     ],
+    "headline": "Security Engineer",
+    "skills": [
+      "pentesting",
+      "owasp"
+    ],
+    "trust_score": 0.85,
     "provenance": [
       {
         "field": "full_name",
@@ -988,18 +1116,6 @@
         "confidence": 0.85
       },
       {
-        "field": "phones",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
         "field": "skills",
         "source": "ats_json",
         "method": "union",
@@ -1009,16 +1125,31 @@
     "overall_confidence": 0.85
   },
   {
+    "candidate_id": "41332740e5db8b4ba26d4660d3837f63290b44becb994bcdea5cf925c33a1ed5",
     "name": "Min-jun Park",
     "primary_email": "minjun.park@naver.com",
+    "all_emails": [
+      "minjun.park@naver.com"
+    ],
+    "phone": "+82-10-1234-5678",
+    "github": "https://github.com/minjunpark",
+    "linkedin": "https://linkedin.com/in/minjunpark-dev",
+    "headline": "Server Engineer",
+    "experience_years": 9.0,
     "skills": [
+      "kotlin",
+      "spring boot",
+      "kafka",
+      "java"
+    ],
+    "current_company": "Naver",
+    "work_history": [
       {
-        "name": "kotlin"
-      },
-      {
-        "name": "spring boot"
+        "company": "Naver"
       }
     ],
+    "highest_degree": "PhD",
+    "trust_score": 0.75,
     "provenance": [
       {
         "field": "full_name",
@@ -1033,8 +1164,38 @@
         "confidence": 0.85
       },
       {
+        "field": "years_experience",
+        "source": "recruiter_notes",
+        "method": "highest_confidence",
+        "confidence": 0.5
+      },
+      {
+        "field": "links",
+        "source": "ats_json",
+        "method": "merge_keys",
+        "confidence": 0.85
+      },
+      {
+        "field": "links",
+        "source": "recruiter_notes",
+        "method": "merge_keys",
+        "confidence": 0.5
+      },
+      {
         "field": "emails",
         "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
         "method": "union",
         "confidence": 0.85
       },
@@ -1055,24 +1216,42 @@
         "source": "ats_json",
         "method": "union",
         "confidence": 0.85
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_notes",
+        "method": "union",
+        "confidence": 0.5
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "education",
+        "source": "recruiter_notes",
+        "method": "union",
+        "confidence": 0.5
       }
     ],
-    "overall_confidence": 0.85
+    "overall_confidence": 0.75
   },
   {
+    "candidate_id": "ac34cfcca74f1ace97ca9fdf79ea1bd85ff791dee712050adf48cd5113a718b6",
     "name": "Anya Petrova",
     "primary_email": "anya.petrova@gmail.com",
-    "skills": [
-      {
-        "name": "pandas"
-      },
-      {
-        "name": "scikit-learn"
-      },
-      {
-        "name": "ml"
-      }
+    "all_emails": [
+      "anya.petrova@gmail.com"
     ],
+    "headline": "Data Scientist",
+    "skills": [
+      "pandas",
+      "scikit-learn",
+      "Machine Learning"
+    ],
+    "trust_score": 0.85,
     "provenance": [
       {
         "field": "full_name",
@@ -1097,36 +1276,24 @@
         "source": "ats_json",
         "method": "union",
         "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
       }
     ],
     "overall_confidence": 0.85
   },
   {
+    "candidate_id": "391ade75843a08d27506a0cf63f2b12dc227f5930e15b1c08b6c8d24de0d6830",
     "name": "Noah Williams",
     "primary_email": "noah.williams@gmail.com",
-    "skills": [
-      {
-        "name": "  Python "
-      },
-      {
-        "name": "react"
-      },
-      {
-        "name": "node.JS"
-      }
+    "all_emails": [
+      "noah.williams@gmail.com"
     ],
+    "headline": "Full Stack Engineer",
+    "skills": [
+      "Python",
+      "React",
+      "Node.js"
+    ],
+    "trust_score": 0.85,
     "provenance": [
       {
         "field": "full_name",
@@ -1147,24 +1314,6 @@
         "confidence": 0.85
       },
       {
-        "field": "phones",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
         "field": "skills",
         "source": "ats_json",
         "method": "union",
@@ -1174,16 +1323,18 @@
     "overall_confidence": 0.85
   },
   {
+    "candidate_id": "4314e478dc934b84c60744d511941821637c2eda0c8a2cab815d69f718f736f6",
     "name": "Isabella Conti",
     "primary_email": "isabella.conti@gmail.com",
-    "skills": [
-      {
-        "name": "risk modeling"
-      },
-      {
-        "name": "sql"
-      }
+    "all_emails": [
+      "isabella.conti@gmail.com"
     ],
+    "headline": "Risk Analyst",
+    "skills": [
+      "risk modeling",
+      "sql"
+    ],
+    "trust_score": 0.85,
     "provenance": [
       {
         "field": "full_name",
@@ -1204,18 +1355,6 @@
         "confidence": 0.85
       },
       {
-        "field": "phones",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
         "field": "skills",
         "source": "ats_json",
         "method": "union",
@@ -1225,19 +1364,19 @@
     "overall_confidence": 0.85
   },
   {
+    "candidate_id": "9d6f2dc4fe5129ddfe727be47734a24f7e093b8548e1d8518411b817109cf383",
     "name": "Ethan Brooks",
     "primary_email": "ethan.brooks@salesforce.com",
-    "skills": [
-      {
-        "name": "apex"
-      },
-      {
-        "name": "salesforce"
-      },
-      {
-        "name": "javascript"
-      }
+    "all_emails": [
+      "ethan.brooks@salesforce.com"
     ],
+    "headline": "Platform Engineer",
+    "skills": [
+      "apex",
+      "salesforce",
+      "JavaScript"
+    ],
+    "trust_score": 0.85,
     "provenance": [
       {
         "field": "full_name",
@@ -1258,24 +1397,6 @@
         "confidence": 0.85
       },
       {
-        "field": "phones",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
         "field": "skills",
         "source": "ats_json",
         "method": "union",
@@ -1285,13 +1406,17 @@
     "overall_confidence": 0.85
   },
   {
+    "candidate_id": "7e6ea62ad413e64265919670246b2992f4d15ca38b994c27298b63a588dd8ba8",
     "name": "TEST RECORD - IGNORE",
     "primary_email": "test@test.test",
-    "skills": [
-      {
-        "name": "test"
-      }
+    "all_emails": [
+      "test@test.test"
     ],
+    "headline": "TEST",
+    "skills": [
+      "test"
+    ],
+    "trust_score": 0.85,
     "provenance": [
       {
         "field": "full_name",
@@ -1321,15 +1446,17 @@
     "overall_confidence": 0.85
   },
   {
+    "candidate_id": "41b48d9a229f18a0abeca22c32c4822aff3b55e84dacd65bbd53629c008d9b05",
     "primary_email": "devnull404@protonmail.com",
-    "skills": [
-      {
-        "name": "rust"
-      },
-      {
-        "name": "wasm"
-      }
+    "all_emails": [
+      "devnull404@protonmail.com"
     ],
+    "headline": "Independent Contractor",
+    "skills": [
+      "rust",
+      "wasm"
+    ],
+    "trust_score": 0.85,
     "provenance": [
       {
         "field": "headline",
@@ -1348,30 +1475,35 @@
         "source": "ats_json",
         "method": "union",
         "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
       }
     ],
     "overall_confidence": 0.85
   },
   {
+    "candidate_id": "2132f4608de09350fe230245d20b00ef99f1c3cf3ad8c351cee98bc0a79da579",
     "name": "Maria Gonzalez",
     "primary_email": "maria.gonzalez@gmail.com",
+    "all_emails": [
+      "maria.gonzalez@gmail.com"
+    ],
+    "phone": "+34-612-345-678",
+    "github": "https://github.com/mariag-cloud",
+    "linkedin": "https://linkedin.com/in/mariagonzalez-cloud",
+    "headline": "Cloud Architect",
+    "experience_years": 8.0,
     "skills": [
+      "Amazon Web Services",
+      "Microsoft Azure",
+      "terraform",
+      "kubernetes"
+    ],
+    "current_company": "Telefonica",
+    "work_history": [
       {
-        "name": "aws"
-      },
-      {
-        "name": "azure"
-      },
-      {
-        "name": "terraform"
+        "company": "Telefonica"
       }
     ],
+    "trust_score": 0.7692307692307693,
     "provenance": [
       {
         "field": "full_name",
@@ -1386,8 +1518,38 @@
         "confidence": 0.85
       },
       {
+        "field": "years_experience",
+        "source": "recruiter_notes",
+        "method": "highest_confidence",
+        "confidence": 0.5
+      },
+      {
+        "field": "links",
+        "source": "ats_json",
+        "method": "merge_keys",
+        "confidence": 0.85
+      },
+      {
+        "field": "links",
+        "source": "recruiter_notes",
+        "method": "merge_keys",
+        "confidence": 0.5
+      },
+      {
         "field": "emails",
         "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
         "method": "union",
         "confidence": 0.85
       },
@@ -1410,25 +1572,33 @@
         "confidence": 0.85
       },
       {
-        "field": "skills",
-        "source": "ats_json",
+        "field": "experience",
+        "source": "recruiter_notes",
+        "method": "union",
+        "confidence": 0.5
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
         "method": "union",
         "confidence": 0.85
       }
     ],
-    "overall_confidence": 0.85
+    "overall_confidence": 0.7692307692307693
   },
   {
+    "candidate_id": "0d3c0d72670e22c7e1d50cb90b88aa7823f32c390ce3013be78349f76e33f638",
     "name": "Ben Carter",
     "primary_email": "ben.carter@gmail.com",
-    "skills": [
-      {
-        "name": "python"
-      },
-      {
-        "name": "palantir foundry"
-      }
+    "all_emails": [
+      "ben.carter@gmail.com"
     ],
+    "headline": "Forward Deployed Engineer",
+    "skills": [
+      "Python",
+      "palantir foundry"
+    ],
+    "trust_score": 0.85,
     "provenance": [
       {
         "field": "full_name",
@@ -1449,18 +1619,6 @@
         "confidence": 0.85
       },
       {
-        "field": "phones",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
         "field": "skills",
         "source": "ats_json",
         "method": "union",
@@ -1470,19 +1628,19 @@
     "overall_confidence": 0.85
   },
   {
+    "candidate_id": "07bfb4bab9acde32b5f807b7760e9f9d77d8f4f0c0f9ccabaef9c7b9e15f1482",
     "name": "Bob Johnson",
     "primary_email": "shared.account@company.com",
-    "skills": [
-      {
-        "name": "leadership"
-      },
-      {
-        "name": "java"
-      },
-      {
-        "name": "system design"
-      }
+    "all_emails": [
+      "shared.account@company.com"
     ],
+    "headline": "Vice President, Engineering",
+    "skills": [
+      "leadership",
+      "java",
+      "system design"
+    ],
+    "trust_score": 0.85,
     "provenance": [
       {
         "field": "full_name",
@@ -1503,24 +1661,6 @@
         "confidence": 0.85
       },
       {
-        "field": "phones",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
         "field": "skills",
         "source": "ats_json",
         "method": "union",
@@ -1530,19 +1670,19 @@
     "overall_confidence": 0.85
   },
   {
+    "candidate_id": "fbb69d061cebbef8b6dd1d1cbeea8c7a49d24aa8421cec1bcbeb780ba1cdeb12",
     "name": "Chloe Dubois",
     "primary_email": "chloe.dubois@gmail.com",
+    "all_emails": [
+      "chloe.dubois@gmail.com"
+    ],
+    "headline": "Data Analyst",
     "skills": [
-      {
-        "name": "sql"
-      },
-      {
-        "name": "tableau"
-      },
-      {
-        "name": "python"
-      }
+      "sql",
+      "tableau",
+      "Python"
     ],
+    "trust_score": 0.85,
     "provenance": [
       {
         "field": "full_name",
@@ -1563,24 +1703,6 @@
         "confidence": 0.85
       },
       {
-        "field": "phones",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "skills",
-        "source": "ats_json",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
         "field": "skills",
         "source": "ats_json",
         "method": "union",
@@ -1590,7 +1712,12 @@
     "overall_confidence": 0.85
   },
   {
+    "candidate_id": "01884c7dc8c8773f21c4ccf39ea10bbe1d5a5fa4e63ef1f0bf24a53a19b07de4",
     "primary_email": "ghost.candidate@gmail.com",
+    "all_emails": [
+      "ghost.candidate@gmail.com"
+    ],
+    "trust_score": 0.85,
     "provenance": [
       {
         "field": "emails",
@@ -1602,138 +1729,78 @@
     "overall_confidence": 0.85
   },
   {
-    "primary_email": "charlie.b@test.com",
+    "candidate_id": "76a0e1baa1dd593bc376a1e6160a408895792d4f6d2b3c114f464d18f0961c74",
+    "name": "Sophia Mueller",
+    "primary_email": "sophia.mueller@gmail.com",
+    "all_emails": [
+      "sophia.mueller@gmail.com"
+    ],
+    "phone": "+49-170-1234567",
+    "github": "https://github.com/sophiam-quant",
+    "linkedin": "https://linkedin.com/in/sophiamueller-quant",
+    "skills": [
+      "Python",
+      "r",
+      "quantlib",
+      "machine learning"
+    ],
+    "current_company": "Deutsche",
+    "work_history": [
+      {
+        "company": "Deutsche"
+      }
+    ],
+    "trust_score": 0.7625,
     "provenance": [
       {
-        "field": "emails",
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "links",
+        "source": "ats_json",
+        "method": "merge_keys",
+        "confidence": 0.85
+      },
+      {
+        "field": "links",
         "source": "recruiter_notes",
-        "method": "union",
+        "method": "merge_keys",
         "confidence": 0.5
       },
       {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
         "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "experience",
         "source": "recruiter_notes",
         "method": "union",
         "confidence": 0.5
       }
     ],
-    "overall_confidence": 0.5
-  },
-  {
-    "name": "Fatima Khan",
-    "provenance": [
-      {
-        "field": "full_name",
-        "source": "recruiter_csv",
-        "method": "highest_confidence",
-        "confidence": 0.85
-      },
-      {
-        "field": "headline",
-        "source": "recruiter_csv",
-        "method": "highest_confidence",
-        "confidence": 0.85
-      },
-      {
-        "field": "phones",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      }
-    ],
-    "overall_confidence": 0.85
-  },
-  {
-    "name": "Sophia M\u00fcller",
-    "primary_email": "sophia.mueller@deutschebank.com",
-    "provenance": [
-      {
-        "field": "full_name",
-        "source": "recruiter_csv",
-        "method": "highest_confidence",
-        "confidence": 0.85
-      },
-      {
-        "field": "headline",
-        "source": "recruiter_csv",
-        "method": "highest_confidence",
-        "confidence": 0.85
-      },
-      {
-        "field": "emails",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "phones",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      }
-    ],
-    "overall_confidence": 0.85
-  },
-  {
-    "name": "Anya Petrova",
-    "primary_email": "anya.petrova[at]gmail.com",
-    "provenance": [
-      {
-        "field": "full_name",
-        "source": "recruiter_csv",
-        "method": "highest_confidence",
-        "confidence": 0.85
-      },
-      {
-        "field": "headline",
-        "source": "recruiter_csv",
-        "method": "highest_confidence",
-        "confidence": 0.85
-      },
-      {
-        "field": "emails",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "phones",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      }
-    ],
-    "overall_confidence": 0.85
-  },
-  {
-    "name": "12345",
-    "primary_email": "not-a-real-email",
-    "provenance": [
-      {
-        "field": "full_name",
-        "source": "recruiter_csv",
-        "method": "highest_confidence",
-        "confidence": 0.85
-      },
-      {
-        "field": "headline",
-        "source": "recruiter_csv",
-        "method": "highest_confidence",
-        "confidence": 0.85
-      },
-      {
-        "field": "emails",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      },
-      {
-        "field": "phones",
-        "source": "recruiter_csv",
-        "method": "union",
-        "confidence": 0.85
-      }
-    ],
-    "overall_confidence": 0.85
+    "overall_confidence": 0.7625
   }
 ]
