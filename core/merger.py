@@ -1,0 +1,96 @@
+import hashlib
+from models.canonical import CanonicalProfile, ProvenanceEntry
+from core.confidence import calculate_field_confidence, calculate_overall_confidence
+from adapters.base import AdapterResult
+
+class MergeEngine:
+    def merge_candidate(self, results: list[AdapterResult]) -> CanonicalProfile:
+        provenance = []
+        
+        merged_data = {
+            'full_name': '',
+            'emails': [],
+            'phones': [],
+            'location': {},
+            'links': {},
+            'headline': None,
+            'years_experience': None,
+            'skills': [],
+            'experience': [],
+            'education': []
+        }
+        
+        scalar_fields = ['full_name', 'headline', 'years_experience', 'location', 'links']
+        list_fields = ['emails', 'phones', 'skills', 'experience', 'education']
+        
+        # Process scalar fields
+        for field in scalar_fields:
+            best_val = None
+            best_conf = -1.0
+            best_source = None
+            
+            for res in results:
+                if field in res.raw_fields and res.raw_fields[field]:
+                    val = res.raw_fields[field]
+                    conf = calculate_field_confidence(val, res.trust_weight)
+                    if conf > best_conf:
+                        best_conf = conf
+                        best_val = val
+                        best_source = res.source_name
+            
+            if best_val is not None:
+                merged_data[field] = best_val
+                provenance.append(
+                    ProvenanceEntry(
+                        field=field, 
+                        source=best_source, 
+                        method='highest_confidence', 
+                        confidence=best_conf
+                    )
+                )
+        
+        # Process list fields
+        for field in list_fields:
+            unique_items = []
+            seen = set()
+            
+            for res in results:
+                if field in res.raw_fields and isinstance(res.raw_fields[field], list):
+                    for item in res.raw_fields[field]:
+                        # Make dicts hashable for deduplication
+                        if isinstance(item, dict):
+                            item_key = str(sorted(item.items()))
+                        else:
+                            item_key = item
+                            
+                        if item_key not in seen:
+                            seen.add(item_key)
+                            unique_items.append(item)
+                            
+                            conf = calculate_field_confidence(item, res.trust_weight)
+                            provenance.append(
+                                ProvenanceEntry(
+                                    field=field, 
+                                    source=res.source_name, 
+                                    method='union', 
+                                    confidence=conf
+                                )
+                            )
+            merged_data[field] = unique_items
+            
+        # Generate candidate_id
+        if merged_data['emails']:
+            primary = merged_data['emails'][0].lower()
+            candidate_id = hashlib.sha256(primary.encode('utf-8')).hexdigest()
+        else:
+            full_name = merged_data.get('full_name', '').lower()
+            candidate_id = hashlib.sha256(full_name.encode('utf-8')).hexdigest()
+            
+        merged_data['candidate_id'] = candidate_id
+        
+        # Calculate overall confidence
+        conf_scores = [p.confidence for p in provenance]
+        merged_data['overall_confidence'] = calculate_overall_confidence(conf_scores)
+        merged_data['provenance'] = provenance
+        
+        return CanonicalProfile(**merged_data)
