@@ -8,6 +8,7 @@ import logging
 from adapters.csv_adapter import CsvAdapter
 from adapters.ats_json_adapter import AtsJsonAdapter
 from adapters.notes_adapter import NotesAdapter
+from adapters.pdf_adapter import PdfAdapter
 from adapters.base import AdapterResult
 from core.merger import MergeEngine
 from core.projector import Projector
@@ -186,6 +187,7 @@ def main():
     csv_adapter = CsvAdapter()
     json_adapter = AtsJsonAdapter()
     notes_adapter = NotesAdapter()
+    pdf_adapter = PdfAdapter()
 
     for file_path in input_path.iterdir():
         if not file_path.is_file():
@@ -198,6 +200,8 @@ def main():
             raw_results.append(json_adapter.safe_extract(str(file_path)))
         elif ext == '.txt':
             raw_results.append(notes_adapter.safe_extract(str(file_path)))
+        elif ext == '.pdf':
+            raw_results.append(pdf_adapter.safe_extract(str(file_path)))
         else:
             logger.info(f"Skipping unsupported file type: {file_path}")
 
