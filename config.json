@@ -16,7 +16,8 @@
     { "path": "current_company", "from_": "experience[0].company", "type": "string", "required": false },
     { "path": "work_history", "from_": "experience", "type": "list", "required": false },
     { "path": "highest_degree", "from_": "education[0].degree", "type": "string", "required": false },
-    { "path": "trust_score", "from_": "overall_confidence", "type": "number", "required": false }
+    { "path": "trust_score", "from_": "overall_confidence", "type": "number", "required": false },
+    { "path": "conflicts_resolved", "from_": "conflicts_resolved", "type": "list", "required": false }
   ],
   "include_confidence": true,
   "on_missing": "omit"

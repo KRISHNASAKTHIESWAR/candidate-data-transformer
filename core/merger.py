@@ -32,6 +32,8 @@ class MergeEngine:
             best_source = None
             
             aliases_collected = set()
+            field_values = []
+            
             for res in results:
                 if field in res.raw_fields and res.raw_fields[field]:
                     val = res.raw_fields[field]
@@ -39,7 +41,10 @@ class MergeEngine:
                         val = val.strip()
                     if not val:
                         continue
+                        
                     conf = calculate_field_confidence(val, res.trust_weight)
+                    field_values.append({'val': val, 'conf': conf, 'source': res.source_name})
+                    
                     if conf > best_conf:
                         if best_val is not None and field == 'full_name' and best_val.lower() != val.lower():
                             aliases_collected.add(best_val)
@@ -48,6 +53,26 @@ class MergeEngine:
                         best_source = res.source_name
                     elif field == 'full_name' and best_val is not None and val.lower() != best_val.lower():
                         aliases_collected.add(val)
+            
+            # Detect conflicts for this scalar field
+            if len(field_values) > 1:
+                for fv in field_values:
+                    # Case-insensitive comparison for strings, exact for others
+                    if isinstance(best_val, str) and isinstance(fv['val'], str):
+                        is_diff = best_val.lower() != fv['val'].lower()
+                    else:
+                        is_diff = best_val != fv['val']
+                        
+                    if is_diff:
+                        if 'conflicts_resolved' not in merged_data:
+                            merged_data['conflicts_resolved'] = []
+                        merged_data['conflicts_resolved'].append({
+                            'field': field,
+                            'winning_value': best_val,
+                            'losing_value': fv['val'],
+                            'winning_source': best_source,
+                            'losing_source': fv['source']
+                        })
             
             if field == 'full_name' and aliases_collected:
                 merged_data['aliases'] = list(aliases_collected)
@@ -62,7 +87,7 @@ class MergeEngine:
                         confidence=best_conf
                     )
                 )
-
+                
         # Process dict fields
         for field in dict_fields:
             merged_dict = {}

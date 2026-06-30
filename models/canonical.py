@@ -22,5 +22,6 @@ class CanonicalProfile(BaseModel):
     experience: List[Dict[str, Any]] = Field(default_factory=list)
     education: List[Dict[str, Any]] = Field(default_factory=list)
     aliases: List[str] = Field(default_factory=list)
+    conflicts_resolved: List[Dict[str, Any]] = Field(default_factory=list)
     provenance: List[ProvenanceEntry] = Field(default_factory=list)
     overall_confidence: float

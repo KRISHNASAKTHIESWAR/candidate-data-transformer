@@ -8,7 +8,7 @@
     ],
     "phone": "+91-98765-43210",
     "github": "https://github.com/priyasharma-ml",
-    "linkedin": "https://linkedin.com/in/priyasharma-ml",
+    "linkedin": "https://www.linkedin.com/in/priyasharma-ml",
     "headline": "Machine Learning Engineer",
     "experience_years": 6.0,
     "skills": [
@@ -104,7 +104,7 @@
     ],
     "phone": "(415) 555-0182",
     "github": "https://github.com/arjunm",
-    "linkedin": "https://linkedin.com/in/arjunmehta-eng",
+    "linkedin": "https://www.linkedin.com/in/arjunmehta-eng",
     "headline": "Backend Engineer",
     "skills": [
       "Go",
@@ -190,7 +190,7 @@
     "all_emails": [
       "fatima.khan@careem.com"
     ],
-    "linkedin": "https://linkedin.com/in/fatimakhan-pm",
+    "linkedin": "https://www.linkedin.com/in/fatimakhan-pm",
     "headline": "Senior Product Manager",
     "skills": [
       "product strategy",
@@ -356,7 +356,7 @@
     ],
     "phone": "+353-87-123-4567",
     "github": "https://github.com/liamoc",
-    "linkedin": "https://linkedin.com/in/liamoconnor",
+    "linkedin": "https://www.linkedin.com/in/liamoconnor",
     "headline": "Software Engineer II",
     "skills": [
       "Python",
@@ -444,7 +444,7 @@
     ],
     "phone": "+49-170-1234567",
     "github": "https://github.com/sophiam-quant",
-    "linkedin": "https://linkedin.com/in/sophiamueller-quant",
+    "linkedin": "https://www.linkedin.com/in/sophiamueller-quant",
     "skills": [
       "Python",
       "r",
@@ -459,6 +459,15 @@
       }
     ],
     "trust_score": 0.7625,
+    "conflicts_resolved": [
+      {
+        "field": "full_name",
+        "winning_value": "Sophia Mueller",
+        "losing_value": "Sophia M\u00fcller",
+        "winning_source": "ats_json",
+        "losing_source": "recruiter_csv"
+      }
+    ],
     "provenance": [
       {
         "field": "full_name",
@@ -520,7 +529,7 @@
     ],
     "phone": "+82-10-1234-5678",
     "github": "https://github.com/minjunpark",
-    "linkedin": "https://linkedin.com/in/minjunpark-dev",
+    "linkedin": "https://www.linkedin.com/in/minjunpark-dev",
     "headline": "Backend/Infra Engineer",
     "experience_years": 9.0,
     "skills": [
@@ -623,7 +632,7 @@
     ],
     "phone": "+233-24-555-0166",
     "github": "https://github.com/graceowusu-dev",
-    "linkedin": "https://linkedin.com/in/graceowusu",
+    "linkedin": "https://www.linkedin.com/in/graceowusu",
     "trust_score": 0.7916666666666666,
     "provenance": [
       {
@@ -674,7 +683,7 @@
     ],
     "phone": "+7-916-123-45-67",
     "github": "https://github.com/vpetrov-search",
-    "linkedin": "https://linkedin.com/in/viktorpetrov-search",
+    "linkedin": "https://www.linkedin.com/in/viktorpetrov-search",
     "headline": "Search Infrastructure Engineer",
     "experience_years": 8.0,
     "skills": [
@@ -770,7 +779,7 @@
     ],
     "phone": "+34-612-345-678",
     "github": "https://github.com/mariag-cloud",
-    "linkedin": "https://linkedin.com/in/mariagonzalez-cloud",
+    "linkedin": "https://www.linkedin.com/in/mariagonzalez-cloud",
     "headline": "Cloud Architect",
     "experience_years": 8.0,
     "skills": [

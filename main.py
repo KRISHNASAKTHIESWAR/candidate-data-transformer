@@ -17,7 +17,7 @@ logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
 
 import re
-from core.normalizer import normalize_skill
+from core.normalizer import normalize_skill, normalize_linkedin_url
 
 # --- Field name normalization maps per source ---
 # Maps raw adapter keys -> canonical CanonicalProfile field names
@@ -81,7 +81,9 @@ def normalize_ats_record(record: dict) -> dict:
             # Convert list of skill strings to list of dicts with canonical names
             out[canon_key] = [{'name': normalize_skill(s.strip())} for s in val if s and str(s).strip()]
         elif canon_key == 'links_linkedin':
-            links['linkedin'] = str(val).strip()
+            out_linkedin = normalize_linkedin_url(str(val).strip())
+            if out_linkedin:
+                links['linkedin'] = out_linkedin
         elif canon_key == 'links_github':
             links['github'] = str(val).strip()
         else:
@@ -103,7 +105,9 @@ def normalize_notes_record(raw: dict) -> dict:
         linkedin_match = re.search(r'(?:https?://)?(?:www\.)?(linkedin\.com/in/[A-Za-z0-9_-]+)', raw_text, re.IGNORECASE)
         links = {}
         if github_match: links['github'] = "https://" + github_match.group(1)
-        if linkedin_match: links['linkedin'] = "https://" + linkedin_match.group(1)
+        if linkedin_match:
+            out_linkedin = normalize_linkedin_url("https://" + linkedin_match.group(1))
+            if out_linkedin: links['linkedin'] = out_linkedin
         if links: out['links'] = links
         
         # Regex for years of experience
@@ -265,6 +269,8 @@ def main():
     name_to_group_key = {}
     email_to_group_key = {}
     app_id_to_group_key = {}
+    linkedin_to_group_key = {}
+    phone_name_to_group_key = {}
     counter = 0
     
     for res in valid_exploded:
@@ -291,16 +297,36 @@ def main():
         elif raw.get('applicant_id'):
             app_id = str(raw['applicant_id']).strip().upper()
             
+        # Extract phone
+        phone = None
+        if raw.get('phone'):
+            phone = str(raw['phone']).strip()
+        elif raw.get('phones') and isinstance(raw['phones'], list) and len(raw['phones']) > 0:
+            phone = str(raw['phones'][0]).strip()
+            
+        # Extract linkedin
+        linkedin = None
+        if raw.get('links') and isinstance(raw['links'], dict):
+            linkedin = raw['links'].get('linkedin')
+
         # Determine base grouping key
         group_key = None
+        phone_name_key = f"{phone}_{name}" if phone and name else None
+        
         if app_id and app_id in app_id_to_group_key:
             group_key = app_id_to_group_key[app_id]
         elif email and email in email_to_group_key:
             group_key = email_to_group_key[email]
+        elif linkedin and linkedin in linkedin_to_group_key:
+            group_key = linkedin_to_group_key[linkedin]
+        elif phone_name_key and phone_name_key in phone_name_to_group_key:
+            group_key = phone_name_to_group_key[phone_name_key]
         elif app_id:
             group_key = app_id
         elif email:
             group_key = email
+        elif linkedin:
+            group_key = linkedin
         elif name:
             group_key = name
         else:
@@ -324,10 +350,22 @@ def main():
                         existing_email = str(ex_raw['emails'][0]).strip().lower()
                         break
                 
+                # We allow merging if existing email matches or is missing.
+                # If they differ, check if phone or linkedin matched to allow it anyway
                 if existing_email and existing_email != email:
-                    logger.warning(f"WARNING: Potential duplicate identity detected for {name}. Keeping profiles separate due to conflicting emails.")
-                    group_key = f"{name}_{counter}"
-                    counter += 1
+                    # Multi-signal override: if they share linkedin or phone+name, we trust it's the same person
+                    has_override_match = False
+                    if linkedin and linkedin in linkedin_to_group_key and linkedin_to_group_key[linkedin] == existing_key:
+                        has_override_match = True
+                    if phone_name_key and phone_name_key in phone_name_to_group_key and phone_name_to_group_key[phone_name_key] == existing_key:
+                        has_override_match = True
+                        
+                    if not has_override_match:
+                        logger.warning(f"WARNING: Potential duplicate identity detected for {name}. Keeping profiles separate due to conflicting emails.")
+                        group_key = f"{name}_{counter}"
+                        counter += 1
+                    else:
+                        group_key = existing_key
                 else:
                     # No collision, merge into existing group
                     group_key = existing_key
@@ -339,6 +377,10 @@ def main():
             app_id_to_group_key[app_id] = group_key
         if email:
             email_to_group_key[email] = group_key
+        if linkedin:
+            linkedin_to_group_key[linkedin] = group_key
+        if phone_name_key:
+            phone_name_to_group_key[phone_name_key] = group_key
 
         if group_key not in grouped_candidates:
             grouped_candidates[group_key] = []

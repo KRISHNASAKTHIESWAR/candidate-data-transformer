@@ -52,3 +52,18 @@ def normalize_skill(skill: str) -> str:
     if lower_skill in SKILL_ALIASES:
         return SKILL_ALIASES[lower_skill]
     return skill
+
+def normalize_linkedin_url(url: str) -> str:
+    if not url:
+        return url
+    
+    # Strip query params
+    url = url.split('?')[0]
+    
+    import re
+    # Extract handle
+    match = re.search(r'linkedin\.com/in/([^/]+)', url, re.IGNORECASE)
+    if match:
+        handle = match.group(1).strip()
+        return f"https://www.linkedin.com/in/{handle}"
+    return url
