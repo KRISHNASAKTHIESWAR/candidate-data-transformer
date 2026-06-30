@@ -1,0 +1,9 @@
+{
+  "applicant": {
+    "name": "Jane Doe",
+    "contact": {
+      "phone": "555-1234",
+      "email": "jane.doe@example.org"
+    }
+  }
+}
