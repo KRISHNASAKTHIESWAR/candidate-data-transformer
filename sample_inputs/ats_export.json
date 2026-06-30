@@ -1,0 +1,325 @@
+[
+  {
+    "applicant_id": "AT-1001",
+    "applicant_name": "Priya Sharma",
+    "contact": "priya.sharma@gmail.com",
+    "role": "Machine Learning Engineer",
+    "skills_list": [
+      "python",
+      "tensorflow",
+      "nlp"
+    ]
+  },
+  {
+    "applicant_id": "AT-1002",
+    "applicant_name": "Sharma, Priya",
+    "contact": "p.sharma2@yahoo.com",
+    "role": "Software Development Engineer 2",
+    "skills_list": [
+      "java",
+      "azure"
+    ]
+  },
+  {
+    "applicant_id": "AT-1003",
+    "applicant_name": "Arjun Mehta",
+    "contact": "arjun.mehta@outlook.com",
+    "role": "Backend Engineer",
+    "skills_list": [
+      "golang",
+      "kubernetes",
+      "k8s"
+    ]
+  },
+  {
+    "applicant_id": "AT-1004",
+    "applicant_name": "Fatima Khan",
+    "contact": "fatima.khan@careem.com",
+    "role": "Senior Product Manager",
+    "skills_list": [
+      "product strategy",
+      "agile",
+      "roadmapping"
+    ]
+  },
+  {
+    "applicant_id": "AT-1005",
+    "applicant_name": "David Kim",
+    "contact": "david.kim@protonmail.com",
+    "role": "Senior SDE",
+    "skills_list": [
+      "distributed systems",
+      "java",
+      "aws"
+    ]
+  },
+  {
+    "applicant_id": "AT-1006",
+    "applicant_name": "Lena Fischer",
+    "contact": "lena.fischer@gmx.de",
+    "role": "Frontend Developer",
+    "skills_list": [
+      "javascript",
+      "react.js",
+      "css3"
+    ]
+  },
+  {
+    "applicant_id": "AT-1007",
+    "applicant_name": "Carlos Ruiz",
+    "contact": "carlos.ruiz@hotmail.com",
+    "role": "Data Engineer",
+    "skills_list": [
+      "spark",
+      "airflow",
+      "python"
+    ]
+  },
+  {
+    "applicant_id": "AT-1008",
+    "applicant_name": "Wei Zhang",
+    "contact": "wei.zhang88@163.com",
+    "role": "Backend Engineer",
+    "skills_list": [
+      "go",
+      "redis",
+      "mysql"
+    ]
+  },
+  {
+    "applicant_id": "AT-1008B",
+    "applicant_name": "Wei Zhang",
+    "contact": "wei.zhang88@163.com",
+    "role": "Backend Software Engineer",
+    "skills_list": [
+      "go",
+      "grpc"
+    ]
+  },
+  {
+    "applicant_id": "AT-1009",
+    "applicant_name": "Aisha Bello",
+    "contact": "aisha.bello@gmail.com",
+    "role": "Backend Engineer",
+    "skills_list": [
+      "node.js",
+      "postgresql"
+    ]
+  },
+  {
+    "applicant_id": "AT-1010",
+    "applicant_name": "Tom Becker",
+    "contact": "tom.becker@gmail.com",
+    "role": "Senior Engineer",
+    "skills_list": [
+      "ruby",
+      "rails",
+      "postgres"
+    ]
+  },
+  {
+    "applicant_id": "AT-1011",
+    "applicant_name": "Jose Nunez",
+    "contact": "jose.nunez@empresa.mx",
+    "role": "QA Automation Engineer",
+    "skills_list": [
+      "selenium",
+      "pytest",
+      "ci/cd"
+    ]
+  },
+  {
+    "applicant_id": "AT-1012",
+    "applicant_name": "Hana Suzuki",
+    "contact": "hana.suzuki@docomo.ne.jp",
+    "role": "iOS Engineer",
+    "skills_list": [
+      "swift",
+      "swiftui"
+    ]
+  },
+  {
+    "applicant_id": "AT-1013",
+    "applicant_name": "Mohammed Al-Farsi",
+    "contact": "m.alfarsi@gmail.com",
+    "role": "DevOps Engineer",
+    "skills_list": [
+      "terraform",
+      "ansible",
+      "aws"
+    ]
+  },
+  {
+    "applicant_id": "AT-1014",
+    "applicant_name": "Grace Owusu",
+    "contact": "grace.owusu@gmail.com",
+    "role": "",
+    "skills_list": []
+  },
+  {
+    "applicant_id": "AT-1015",
+    "applicant_name": "Viktor Petrov",
+    "contact": "viktor.petrov@yandex.ru",
+    "role": "Search Infrastructure Engineer",
+    "skills_list": [
+      "c++",
+      "elasticsearch",
+      "lucene"
+    ]
+  },
+  {
+    "applicant_id": "AT-1016",
+    "applicant_name": "Sophia Mueller",
+    "contact": "sophia.m.private@gmail.com",
+    "role": "Quantitative Analyst",
+    "skills_list": [
+      "python",
+      "r",
+      "quantlib"
+    ]
+  },
+  {
+    "applicant_id": "AT-1017",
+    "applicant_name": "Liam O'Connor",
+    "contact": "liam.oconnor@gmail.com",
+    "role": "Software Engineering Intern",
+    "skills_list": [
+      "python",
+      "flask"
+    ]
+  },
+  {
+    "applicant_id": "AT-1018",
+    "applicant_name": "D'Angelo Reyes",
+    "contact": "dangelo.reyes@gmail.com",
+    "role": "Security Engineer",
+    "skills_list": [
+      "pentesting",
+      "owasp"
+    ]
+  },
+  {
+    "applicant_id": "AT-1019",
+    "applicant_name": "Min-jun Park",
+    "contact": "minjun.park@naver.com",
+    "role": "Server Engineer",
+    "skills_list": [
+      "kotlin",
+      "spring boot"
+    ]
+  },
+  {
+    "applicant_id": "AT-1020",
+    "applicant_name": "Anya Petrova",
+    "contact": "anya.petrova@gmail.com",
+    "role": "Data Scientist",
+    "skills_list": [
+      "pandas",
+      "scikit-learn",
+      "ml"
+    ]
+  },
+  {
+    "applicant_id": "AT-1021",
+    "applicant_name": "Noah Williams",
+    "contact": "noah.williams@gmail.com",
+    "role": "Full Stack Engineer",
+    "skills_list": [
+      "  Python ",
+      "PYTHON",
+      "react",
+      "React ",
+      "node.JS"
+    ]
+  },
+  {
+    "applicant_id": "AT-1022",
+    "applicant_name": "Isabella Conti",
+    "contact": "isabella.conti@gmail.com",
+    "role": "Risk Analyst",
+    "skills_list": [
+      "risk modeling",
+      "sql"
+    ]
+  },
+  {
+    "applicant_id": "AT-1023",
+    "applicant_name": "Ethan Brooks",
+    "contact": "ethan.brooks@salesforce.com",
+    "role": "Platform Engineer",
+    "skills_list": [
+      "apex",
+      "salesforce",
+      "javascript"
+    ]
+  },
+  {
+    "applicant_id": "AT-1024",
+    "applicant_name": "TEST RECORD - IGNORE",
+    "contact": "test@test.test",
+    "role": "TEST",
+    "skills_list": [
+      "test"
+    ]
+  },
+  {
+    "applicant_id": "AT-1025",
+    "applicant_name": "",
+    "contact": "devnull404@protonmail.com",
+    "role": "Independent Contractor",
+    "skills_list": [
+      "rust",
+      "wasm"
+    ]
+  },
+  {
+    "applicant_id": "AT-1026",
+    "applicant_name": "Maria Gonzalez",
+    "contact": "maria.gonzalez@gmail.com",
+    "role": "Cloud Architect",
+    "skills_list": [
+      "aws",
+      "azure",
+      "terraform"
+    ]
+  },
+  {
+    "applicant_id": "AT-1027",
+    "applicant_name": "Ben Carter",
+    "contact": "ben.carter@gmail.com",
+    "role": "Forward Deployed Engineer",
+    "skills_list": [
+      "python",
+      "palantir foundry"
+    ]
+  },
+  {
+    "applicant_id": "AT-1028",
+    "applicant_name": "Bob Johnson",
+    "contact": "shared.account@company.com",
+    "role": "Vice President, Engineering",
+    "skills_list": [
+      "leadership",
+      "java",
+      "system design"
+    ]
+  },
+  {
+    "applicant_id": "AT-1029",
+    "applicant_name": "Chloe Dubois",
+    "contact": "chloe.dubois@gmail.com",
+    "role": "Data Analyst",
+    "skills_list": [
+      "sql",
+      "tableau",
+      "python"
+    ]
+  },
+  {
+    "applicant_id": "AT-1030",
+    "applicant_name": "",
+    "contact": "ghost.candidate@gmail.com",
+    "role": "",
+    "skills_list": []
+  }
+]

@@ -57,15 +57,22 @@ class MergeEngine:
             for res in results:
                 if field in res.raw_fields and isinstance(res.raw_fields[field], list):
                     for item in res.raw_fields[field]:
-                        # Make dicts hashable for deduplication
+                        # Build a normalized dedup key
                         if isinstance(item, dict):
-                            item_key = str(sorted(item.items()))
+                            # For skill dicts, normalize on the 'name' key
+                            name_val = item.get('name', '')
+                            item_key = ('__dict__', name_val.strip().lower())
+                        elif isinstance(item, str):
+                            # Normalize strings: strip whitespace + lowercase
+                            item_key = item.strip().lower()
                         else:
                             item_key = item
                             
                         if item_key not in seen:
                             seen.add(item_key)
-                            unique_items.append(item)
+                            # Store the item with whitespace stripped for strings
+                            clean_item = item.strip() if isinstance(item, str) else item
+                            unique_items.append(clean_item)
                             
                             conf = calculate_field_confidence(item, res.trust_weight)
                             provenance.append(

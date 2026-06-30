@@ -1,0 +1,1739 @@
+[
+  {
+    "name": "Priya Sharma",
+    "primary_email": "priya.sharma@gmail.com",
+    "skills": [
+      {
+        "name": "python"
+      },
+      {
+        "name": "tensorflow"
+      },
+      {
+        "name": "nlp"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Sharma, Priya",
+    "primary_email": "p.sharma2@yahoo.com",
+    "skills": [
+      {
+        "name": "java"
+      },
+      {
+        "name": "azure"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Arjun Mehta",
+    "primary_email": "arjun.mehta@outlook.com",
+    "skills": [
+      {
+        "name": "golang"
+      },
+      {
+        "name": "kubernetes"
+      },
+      {
+        "name": "k8s"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Fatima Khan",
+    "primary_email": "fatima.khan@careem.com",
+    "skills": [
+      {
+        "name": "product strategy"
+      },
+      {
+        "name": "agile"
+      },
+      {
+        "name": "roadmapping"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "David Kim",
+    "primary_email": "david.kim@protonmail.com",
+    "skills": [
+      {
+        "name": "distributed systems"
+      },
+      {
+        "name": "java"
+      },
+      {
+        "name": "aws"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Lena Fischer",
+    "primary_email": "lena.fischer@gmx.de",
+    "skills": [
+      {
+        "name": "javascript"
+      },
+      {
+        "name": "react.js"
+      },
+      {
+        "name": "css3"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Carlos Ruiz",
+    "primary_email": "carlos.ruiz@hotmail.com",
+    "skills": [
+      {
+        "name": "spark"
+      },
+      {
+        "name": "airflow"
+      },
+      {
+        "name": "python"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Wei Zhang",
+    "primary_email": "wei.zhang88@163.com",
+    "skills": [
+      {
+        "name": "go"
+      },
+      {
+        "name": "redis"
+      },
+      {
+        "name": "mysql"
+      },
+      {
+        "name": "grpc"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Aisha Bello",
+    "primary_email": "aisha.bello@gmail.com",
+    "skills": [
+      {
+        "name": "node.js"
+      },
+      {
+        "name": "postgresql"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Tom Becker",
+    "primary_email": "tom.becker@gmail.com",
+    "skills": [
+      {
+        "name": "ruby"
+      },
+      {
+        "name": "rails"
+      },
+      {
+        "name": "postgres"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Jose Nunez",
+    "primary_email": "jose.nunez@empresa.mx",
+    "skills": [
+      {
+        "name": "selenium"
+      },
+      {
+        "name": "pytest"
+      },
+      {
+        "name": "ci/cd"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Hana Suzuki",
+    "primary_email": "hana.suzuki@docomo.ne.jp",
+    "skills": [
+      {
+        "name": "swift"
+      },
+      {
+        "name": "swiftui"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Mohammed Al-Farsi",
+    "primary_email": "m.alfarsi@gmail.com",
+    "skills": [
+      {
+        "name": "terraform"
+      },
+      {
+        "name": "ansible"
+      },
+      {
+        "name": "aws"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Grace Owusu",
+    "primary_email": "grace.owusu@gmail.com",
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Viktor Petrov",
+    "primary_email": "viktor.petrov@yandex.ru",
+    "skills": [
+      {
+        "name": "c++"
+      },
+      {
+        "name": "elasticsearch"
+      },
+      {
+        "name": "lucene"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Sophia Mueller",
+    "primary_email": "sophia.m.private@gmail.com",
+    "skills": [
+      {
+        "name": "python"
+      },
+      {
+        "name": "r"
+      },
+      {
+        "name": "quantlib"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_notes",
+        "method": "union",
+        "confidence": 0.0
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.7285714285714285
+  },
+  {
+    "name": "Liam O'Connor",
+    "primary_email": "liam.oconnor@gmail.com",
+    "skills": [
+      {
+        "name": "python"
+      },
+      {
+        "name": "flask"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "D'Angelo Reyes",
+    "primary_email": "dangelo.reyes@gmail.com",
+    "skills": [
+      {
+        "name": "pentesting"
+      },
+      {
+        "name": "owasp"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Min-jun Park",
+    "primary_email": "minjun.park@naver.com",
+    "skills": [
+      {
+        "name": "kotlin"
+      },
+      {
+        "name": "spring boot"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Anya Petrova",
+    "primary_email": "anya.petrova@gmail.com",
+    "skills": [
+      {
+        "name": "pandas"
+      },
+      {
+        "name": "scikit-learn"
+      },
+      {
+        "name": "ml"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Noah Williams",
+    "primary_email": "noah.williams@gmail.com",
+    "skills": [
+      {
+        "name": "  Python "
+      },
+      {
+        "name": "react"
+      },
+      {
+        "name": "node.JS"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Isabella Conti",
+    "primary_email": "isabella.conti@gmail.com",
+    "skills": [
+      {
+        "name": "risk modeling"
+      },
+      {
+        "name": "sql"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Ethan Brooks",
+    "primary_email": "ethan.brooks@salesforce.com",
+    "skills": [
+      {
+        "name": "apex"
+      },
+      {
+        "name": "salesforce"
+      },
+      {
+        "name": "javascript"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "TEST RECORD - IGNORE",
+    "primary_email": "test@test.test",
+    "skills": [
+      {
+        "name": "test"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "primary_email": "devnull404@protonmail.com",
+    "skills": [
+      {
+        "name": "rust"
+      },
+      {
+        "name": "wasm"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Maria Gonzalez",
+    "primary_email": "maria.gonzalez@gmail.com",
+    "skills": [
+      {
+        "name": "aws"
+      },
+      {
+        "name": "azure"
+      },
+      {
+        "name": "terraform"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Ben Carter",
+    "primary_email": "ben.carter@gmail.com",
+    "skills": [
+      {
+        "name": "python"
+      },
+      {
+        "name": "palantir foundry"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Bob Johnson",
+    "primary_email": "shared.account@company.com",
+    "skills": [
+      {
+        "name": "leadership"
+      },
+      {
+        "name": "java"
+      },
+      {
+        "name": "system design"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Chloe Dubois",
+    "primary_email": "chloe.dubois@gmail.com",
+    "skills": [
+      {
+        "name": "sql"
+      },
+      {
+        "name": "tableau"
+      },
+      {
+        "name": "python"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "primary_email": "ghost.candidate@gmail.com",
+    "provenance": [
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "primary_email": "charlie.b@test.com",
+    "provenance": [
+      {
+        "field": "emails",
+        "source": "recruiter_notes",
+        "method": "union",
+        "confidence": 0.5
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_notes",
+        "method": "union",
+        "confidence": 0.5
+      }
+    ],
+    "overall_confidence": 0.5
+  },
+  {
+    "name": "Fatima Khan",
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Sophia M\u00fcller",
+    "primary_email": "sophia.mueller@deutschebank.com",
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "Anya Petrova",
+    "primary_email": "anya.petrova[at]gmail.com",
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "name": "12345",
+    "primary_email": "not-a-real-email",
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "highest_confidence",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "union",
+        "confidence": 0.85
+      }
+    ],
+    "overall_confidence": 0.85
+  }
+]

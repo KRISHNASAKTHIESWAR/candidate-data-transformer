@@ -1,4 +1,32 @@
-﻿name,email,phone
-Alice Smith,alice@example.com,123-456-7890
-Bob Jones,,987-654-3210
-,,
+﻿Name,Email,Phone,Current Company,Title
+Priya Sharma,priya.sharma@gmail.com,+91-98765-43210,Google,ML Engineer
+P. Sharma,p.sharma2@yahoo.com,9876543211,Microsoft,SDE-2
+Arjun Mehta,arjun.mehta@outlook.com,(415) 555-0182,Meta,Backend Engineer
+Fatima Khan,,+971-50-123-4567,Careem,Product Manager
+David Kim,david.kim@protonmail.com,+1-206-555-0147,Amazon,SDE-3
+Lena Fischer,lena.fischer@gmx.de,+49-151-23456789,SAP,Frontend Developer
+Carlos Ruiz,carlos.ruiz@hotmail.com,N/A - ask recruiter,Mercado Libre,Data Engineer
+Wei Zhang,wei.zhang88@163.com,+86-138-0013-8000,Tencent,Backend Engineer
+Wei Zhang,wei.zhang88@163.com,86 138 0013 8000,TENCENT,Backend SWE
+Aisha Bello,aisha.bello@gmail.com,+234-803-555-0192,Flutterwave,Backend Engineer
+Tom Becker,tom.becker@gmail.com,+1-512-555-0133,Stripe,Staff Engineer
+José Núñez,jose.nunez@empresa.mx,+52-55-1234-5678,Mercado Pago,QA Engineer
+Hana Suzuki,hana.suzuki@docomo.ne.jp,+81-90-1234-5678,Rakuten,iOS Developer
+Mohammed Al-Farsi,m.alfarsi@gmail.com,+968-9123-4567,Oman Air,DevOps Engineer
+Grace Owusu,grace.owusu@gmail.com,+233-24-555-0166,,
+Viktor Petrov,viktor.petrov@yandex.ru,+7-916-123-45-67,Yandex,Search Engineer
+Sophia Müller,sophia.mueller@deutschebank.com,+49-170-1234567,Deutsche Bank,Quant Analyst
+Liam O'Connor,liam.oconnor@gmail.com,+353-87-123-4567,Intern - TCD,Intern
+D'Angelo Reyes,dangelo.reyes@gmail.com,+1-305-555-0177,=CMD(),Security Engineer
+Min-jun Park,minjun.park@naver.com,+82-10-1234-5678,Naver,Backend Dev
+Anya Petrova,anya.petrova[at]gmail.com,+7-925-555-0144,Ozon,Data Scientist
+Noah Williams,noah.williams@gmail.com,+1-617-555-0199,HubSpot,Full Stack Engineer
+Isabella Conti,isabella.conti@gmail.com,+39-345-123-4567,Unicredit,Risk Analyst
+Ethan Brooks,ethan.brooks@salesforce.com,+1-415-555-0122,Salesforce,Platform Engineer
+12345,not-a-real-email,0000000000,TEST_DO_NOT_USE,TEST
+,devnull404@protonmail.com,,Freelance,Open Source Contributor
+Maria Gonzalez,maria.gonzalez@gmail.com,+34-612-345-678,Telefonica,Cloud Architect
+Ben Carter,ben.carter@gmail.com,+1-303-555-0188,Palantir,Forward Deployed Engineer
+Robert Johnson,shared.account@company.com,+1-212-555-0111,Goldman Sachs,VP Engineering
+Chloe Dubois,chloe.dubois@gmail.com,+33-6-12-34-56-78,L'Oreal,Data Analyst
+,ghost.candidate@gmail.com,,,
