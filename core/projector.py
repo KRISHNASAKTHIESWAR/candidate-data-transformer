@@ -97,6 +97,31 @@ class Projector:
                 else:
                     val = transform_value(val)
                     
+            # Apply Normalization
+            if val is not None and not is_missing and field.normalize:
+                def apply_norm(v):
+                    if field.normalize == 'E164' and isinstance(v, str):
+                        # Attempt to dynamically determine region hint from profile location
+                        country = profile_dict.get('location', {}).get('country', '')
+                        region_hint = 'US'
+                        if country:
+                            country_upper = country.upper()
+                            if country_upper in ['UK', 'UNITED KINGDOM']: region_hint = 'GB'
+                            elif country_upper in ['INDIA']: region_hint = 'IN'
+                            elif country_upper in ['GERMANY']: region_hint = 'DE'
+                            elif country_upper in ['FRANCE']: region_hint = 'FR'
+                            elif len(country_upper) == 2: region_hint = country_upper
+                        
+                        from core.normalizer import normalize_phone
+                        normalized = normalize_phone(v, region_hint=region_hint)
+                        return normalized if normalized else v
+                    return v
+                    
+                if isinstance(val, list):
+                    val = [apply_norm(v) for v in val]
+                else:
+                    val = apply_norm(val)
+                    
             output_dict[field.path] = val
             
         # Confidence Toggle

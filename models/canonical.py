@@ -18,6 +18,11 @@ class CanonicalProfile(BaseModel):
     links: Dict[str, str] = Field(default_factory=dict)
     headline: Optional[str] = None
     years_experience: Optional[float] = None
+    total_years_experience: float | None = None
+    seniority_level: str | None = None
+    average_tenure: float | None = None
+    career_velocity: str | None = None
+    executive_summary: str | None = None
     skills: List[Dict[str, Any]] = Field(default_factory=list)
     experience: List[Dict[str, Any]] = Field(default_factory=list)
     education: List[Dict[str, Any]] = Field(default_factory=list)

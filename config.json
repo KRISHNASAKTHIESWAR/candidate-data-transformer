@@ -17,7 +17,12 @@
     { "path": "work_history", "from_": "experience", "type": "list", "required": false },
     { "path": "highest_degree", "from_": "education[0].degree", "type": "string", "required": false },
     { "path": "trust_score", "from_": "overall_confidence", "type": "number", "required": false },
-    { "path": "conflicts_resolved", "from_": "conflicts_resolved", "type": "list", "required": false }
+    { "path": "conflicts_resolved", "from_": "conflicts_resolved", "type": "list", "required": false },
+    { "path": "years_experience", "from_": "total_years_experience", "type": "number", "required": false },
+    { "path": "seniority", "from_": "seniority_level", "type": "string", "required": false, "transform": "uppercase" },
+    { "path": "average_tenure", "from_": "average_tenure", "type": "number", "required": false },
+    { "path": "career_velocity", "from_": "career_velocity", "type": "string", "required": false },
+    { "path": "executive_summary", "from_": "executive_summary", "type": "string", "required": false }
   ],
   "include_confidence": true,
   "on_missing": "omit"

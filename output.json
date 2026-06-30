@@ -6,7 +6,7 @@
     "all_emails": [
       "priya.sharma@gmail.com"
     ],
-    "phone": "+91-98765-43210",
+    "phone": "+919876543210",
     "github": "https://github.com/priyasharma-ml",
     "linkedin": "https://www.linkedin.com/in/priyasharma-ml",
     "headline": "Machine Learning Engineer",
@@ -102,7 +102,7 @@
     "all_emails": [
       "arjun.mehta@outlook.com"
     ],
-    "phone": "(415) 555-0182",
+    "phone": "+14155550182",
     "github": "https://github.com/arjunm",
     "linkedin": "https://www.linkedin.com/in/arjunmehta-eng",
     "headline": "Backend Engineer",
@@ -265,7 +265,7 @@
     "all_emails": [
       "wei.zhang88@163.com"
     ],
-    "phone": "+86-138-0013-8000",
+    "phone": "+8613800138000",
     "github": "https://github.com/weizhang-dev",
     "headline": "Backend Software Engineer",
     "experience_years": 7.0,
@@ -354,7 +354,7 @@
     "all_emails": [
       "liam.oconnor@gmail.com"
     ],
-    "phone": "+353-87-123-4567",
+    "phone": "+353871234567",
     "github": "https://github.com/liamoc",
     "linkedin": "https://www.linkedin.com/in/liamoconnor",
     "headline": "Software Engineer II",
@@ -442,7 +442,7 @@
     "all_emails": [
       "sophia.mueller@gmail.com"
     ],
-    "phone": "+49-170-1234567",
+    "phone": "+491701234567",
     "github": "https://github.com/sophiam-quant",
     "linkedin": "https://www.linkedin.com/in/sophiamueller-quant",
     "skills": [
@@ -527,7 +527,7 @@
     "all_emails": [
       "minjun.park@naver.com"
     ],
-    "phone": "+82-10-1234-5678",
+    "phone": "+821012345678",
     "github": "https://github.com/minjunpark",
     "linkedin": "https://www.linkedin.com/in/minjunpark-dev",
     "headline": "Backend/Infra Engineer",
@@ -630,7 +630,7 @@
     "all_emails": [
       "grace.owusu@gmail.com"
     ],
-    "phone": "+233-24-555-0166",
+    "phone": "+233245550166",
     "github": "https://github.com/graceowusu-dev",
     "linkedin": "https://www.linkedin.com/in/graceowusu",
     "trust_score": 0.7916666666666666,
@@ -681,7 +681,7 @@
     "all_emails": [
       "viktor.petrov@yandex.ru"
     ],
-    "phone": "+7-916-123-45-67",
+    "phone": "+79161234567",
     "github": "https://github.com/vpetrov-search",
     "linkedin": "https://www.linkedin.com/in/viktorpetrov-search",
     "headline": "Search Infrastructure Engineer",
@@ -777,7 +777,7 @@
     "all_emails": [
       "maria.gonzalez@gmail.com"
     ],
-    "phone": "+34-612-345-678",
+    "phone": "+34612345678",
     "github": "https://github.com/mariag-cloud",
     "linkedin": "https://www.linkedin.com/in/mariagonzalez-cloud",
     "headline": "Cloud Architect",
@@ -865,36 +865,5 @@
       }
     ],
     "overall_confidence": 0.7545454545454546
-  },
-  {
-    "candidate_id": "56fdd271f3ec9f7d77a2395e5f0a14b569dcca2fa55461135d3c601541bc00b3",
-    "name": "E Krishna Shakthi Eswar",
-    "primary_email": "ekrishnasakthi@gmail.com",
-    "all_emails": [
-      "ekrishnasakthi@gmail.com"
-    ],
-    "phone": "215) 9342484",
-    "trust_score": 0.65,
-    "provenance": [
-      {
-        "field": "full_name",
-        "source": "pdf_resume",
-        "method": "highest_confidence",
-        "confidence": 0.65
-      },
-      {
-        "field": "emails",
-        "source": "pdf_resume",
-        "method": "union",
-        "confidence": 0.65
-      },
-      {
-        "field": "phones",
-        "source": "pdf_resume",
-        "method": "union",
-        "confidence": 0.65
-      }
-    ],
-    "overall_confidence": 0.65
   }
 ]

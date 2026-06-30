@@ -13,6 +13,7 @@ from adapters.base import AdapterResult
 from core.merger import MergeEngine
 from core.projector import Projector
 from models.config import RuntimeConfig
+from core.derived import enrich_profile
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
@@ -162,6 +163,7 @@ def main():
     parser.add_argument('--input_dir', type=str, default='sample_input_new', help="Directory containing raw files")
     parser.add_argument('--config', type=str, default='config.json', help="Path to config JSON file")
     parser.add_argument('--output', type=str, default='output.json', help="Path to write final JSON")
+    parser.add_argument('--cli_format', type=str, choices=['none', 'json', 'summary'], default='none', help="Output format to print in CLI")
     args = parser.parse_args()
 
     # Load Config
@@ -405,6 +407,7 @@ def main():
 
         try:
             profile = engine.merge_candidate(results_list)
+            profile = enrich_profile(profile)
             final_dict = Projector.apply(profile, config)
             final_output.append(final_dict)
         except Exception as e:
@@ -415,6 +418,21 @@ def main():
         with open(args.output, 'w', encoding='utf-8') as f:
             json.dump(final_output, f, indent=2)
         logger.info(f"Successfully wrote {len(final_output)} candidate(s) to {args.output}")
+        
+        if args.cli_format == 'json':
+            print(json.dumps(final_output, indent=2))
+        elif args.cli_format == 'summary':
+            print("\n" + "="*50)
+            print("CANDIDATE SUMMARIES")
+            print("="*50)
+            for item in final_output:
+                name = item.get("name", "Unknown")
+                summary = item.get("executive_summary", "No summary available.")
+                velocity = item.get("career_velocity", "Normal")
+                print(f"\n* {name.upper()} (Velocity: {velocity})")
+                print(f"  {summary}")
+            print("\n" + "="*50)
+            
     except Exception as e:
         logger.error(f"Failed to write output file: {e}")
         sys.exit(1)
