@@ -345,16 +345,32 @@ All derived fields are added to the **Provenance audit trail** with `source: "de
 
 ---
 
+### ⚖️ Confidence Formula & Trust Ladder
+
+Instead of static trust weights, the engine uses a **Field-Aware Trust Ladder** combined with a mathematical confidence formula. 
+For example, a recruiter's manual notes are highly trusted for `skills`, but an ATS export is more trusted for `email`.
+
+The final confidence score is generated using an auditable formula:
+`Score = Base Trust × Format Validity × Cross-Source Agreement × Value Completeness`
+
+---
+
 ### 📋 Provenance Audit Trail
 
-Every field in the output has a matching `ProvenanceEntry` documenting exactly where it came from:
+Every field in the output has a matching `ProvenanceEntry` documenting exactly where it came from, including the full mathematical breakdown of its confidence score:
 
 ```json
 {
   "field": "full_name",
   "source": "ats_json",
   "method": "highest_confidence",
-  "confidence": 0.88
+  "confidence": 0.88,
+  "confidence_breakdown": {
+    "base": 0.80,
+    "format": 1.0,
+    "agreement": 1.0,
+    "completeness": 1.10
+  }
 }
 ```
 

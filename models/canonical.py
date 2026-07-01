@@ -7,6 +7,7 @@ class ProvenanceEntry(BaseModel):
     source: str
     method: str
     confidence: float = Field(ge=0.0, le=1.0)
+    confidence_breakdown: Optional[Dict[str, float]] = None
 
 class CanonicalProfile(BaseModel):
     model_config = ConfigDict(strict=True)
