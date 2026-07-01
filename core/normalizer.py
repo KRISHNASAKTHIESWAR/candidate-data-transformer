@@ -14,15 +14,22 @@ def normalize_phone(phone_str: str, region_hint: str = 'US') -> str | None:
     if not phone_str:
         return None
         
+    regions_to_try = [region_hint, 'IN', 'GB', 'AU'] if region_hint else ['US', 'IN', 'GB', 'AU']
+    
+    # Clean up common PDF rendering artifacts before parsing
+    import re
+    phone_str = re.sub(r'\(cid:\d+\)', '', phone_str).strip()
+    
     try:
-        parsed = phonenumbers.parse(phone_str, region_hint)
-        if phonenumbers.is_valid_number(parsed):
-            return phonenumbers.format_number(parsed, phonenumbers.PhoneNumberFormat.E164)
-        else:
-            logger.warning(f"Invalid phone number: {phone_str}")
-            return None
-    except phonenumbers.NumberParseException as e:
-        logger.warning(f"Failed to parse phone number '{phone_str}': {e}")
+        for region in regions_to_try:
+            try:
+                parsed = phonenumbers.parse(phone_str, region)
+                if phonenumbers.is_valid_number(parsed):
+                    return phonenumbers.format_number(parsed, phonenumbers.PhoneNumberFormat.E164)
+            except phonenumbers.NumberParseException:
+                continue
+                
+        logger.warning(f"Invalid phone number: {phone_str}")
         return None
     except Exception as e:
         logger.warning(f"Unexpected error parsing phone number '{phone_str}': {e}")

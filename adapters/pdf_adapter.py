@@ -16,6 +16,9 @@ class PdfAdapter(BaseAdapter):
                 if text:
                     raw_text += text + "\n"
                 
+        # Clean rendering artifacts
+        raw_text = re.sub(r'\(cid:\d+\)', '', raw_text)
+        
         # Parsing Heuristics (Regex)
         
         # Extract and deduplicate emails
@@ -23,7 +26,7 @@ class PdfAdapter(BaseAdapter):
         extracted_emails = list(set(emails))
         
         # Extract and deduplicate phones
-        phones = re.findall(r'\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}', raw_text)
+        phones = re.findall(r'(?:\+?\d{1,3}[\s.-]?)?\(?\d{2,5}\)?[\s.-]?\d{3,5}[\s.-]?\d{3,5}', raw_text)
         extracted_phones = list(set(phones))
         
         # Heuristic for Name: First non-empty line of the resume
